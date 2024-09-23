@@ -1,0 +1,52 @@
+[
+    {
+        "metric": "volumeToMc",
+        "correlation": -0.11517113783533772,
+        "isPositiveCorrelation": false
+    },
+    {
+        "metric": "liquidityToMC",
+        "correlation": -0.08348751156336731,
+        "isPositiveCorrelation": false
+    },
+    {
+        "metric": "volToLiq",
+        "correlation": -0.21218778908418123,
+        "isPositiveCorrelation": false
+    },
+    {
+        "metric": "buyVolToLiq",
+        "correlation": -0.19079555966697503,
+        "isPositiveCorrelation": false
+    },
+    {
+        "metric": "sellVolToLiq",
+        "correlation": -0.22005087881591123,
+        "isPositiveCorrelation": false
+    },
+    {
+        "metric": "participantEngagement",
+        "correlation": -0.2595975948196114,
+        "isPositiveCorrelation": false
+    },
+    {
+        "metric": "buysToSells",
+        "correlation": -0.20756244218316366,
+        "isPositiveCorrelation": false
+    },
+    {
+        "metric": "buyersToSellers",
+        "correlation": -0.024976873265494914,
+        "isPositiveCorrelation": false
+    },
+    {
+        "metric": "pctCloseFromHigh",
+        "correlation": 0.06926456984273821,
+        "isPositiveCorrelation": true
+    },
+    {
+        "metric": "pctCloseFromOpen",
+        "correlation": 0.04902867715078629,
+        "isPositiveCorrelation": true
+    }
+]

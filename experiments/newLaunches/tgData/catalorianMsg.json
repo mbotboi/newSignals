@@ -1,0 +1,676 @@
+[
+    {
+        "flags": 9487488,
+        "out": false,
+        "mentioned": false,
+        "mediaUnread": false,
+        "silent": false,
+        "post": true,
+        "fromScheduled": false,
+        "legacy": false,
+        "editHide": false,
+        "pinned": false,
+        "noforwards": false,
+        "invertMedia": false,
+        "flags2": 0,
+        "offline": false,
+        "id": 102937,
+        "fromId": null,
+        "fromBoostsApplied": null,
+        "peerId": {
+            "channelId": "1730427571",
+            "className": "PeerChannel"
+        },
+        "savedPeerId": null,
+        "fwdFrom": null,
+        "viaBotId": null,
+        "viaBusinessBotId": null,
+        "replyTo": null,
+        "date": 1726255203,
+        "message": "❇️(Total Call)🚀 $CATALORIAN received calls from 14 callers \n\n🏵 Main Calls: (UTC time)\n1. Reaper Gems \n19:19 09/13/24 | MC: $243.2K 🎯ROI: 1693% 💰17x⚡️CPW: 1320.04 | Caller Stats\n\n2. Arcane Gems \n20:00 09/13/24 | MC: $610.2K 🎯ROI: 614% 💸7x⚡️CPW: 1118.1 | Caller Stats\n\n3. 𝐁𝐫𝐨𝐨𝐤 𝐂𝐚𝐥𝐥𝐬 💀 🌂🎻 \n20:03 09/13/24 | MC: $807.1K 🎯ROI: 440% 💸5x⚡️CPW: 1026.28 | Caller Stats\n\n4. Pow's Gem Calls \n20:09 09/13/24 | MC: $1.4M 🎯ROI: 213% 💸3x⚡️CPW: 1106.25 | Caller Stats\n\n5. Madara's Calls 🧲 \n20:12 09/13/24 | MC: $3.4M 🎯ROI: 29%⚡️CPW: 475.19 | Caller Stats\n\n6. Veigar Calls \n20:12 09/13/24 | MC: $3.4M 🎯ROI: 29%⚡️CPW: 475.19 | Caller Stats\n\n7. Charles Gem Calls \n20:24 09/13/24 | MC: $1.6M 🎯ROI: 171%⚡️CPW: 1034.34 | Caller Stats\n\n8. Micha Calls / 100% Organic \n22:27 09/13/24 | MC: $1.7M 🎯ROI: 163%⚡️CPW: 1032.75 | Caller Stats\n\n9. GAMBLES \n22:55 09/13/24 | MC: $2.3M 🎯ROI: 90%⚡️CPW: 935.85 | Caller Stats\n\n10. Maxi Degen \n13:46 09/14/24 | MC: $676.1K 🎯ROI: 545% 💸6x⚡️CPW: 1111.49 | Caller Stats\n\n11. RIO Calls 🧲 \n03:26 09/16/24 | MC: $400.9K 🎯ROI: 988% 💸10x⚡️CPW: 1200.65 | Caller Stats\n\n12. SpiderCrypto Trading Journal \n22:32 09/16/24 | MC: $3.8M 🎯ROI: 14%⚡️CPW: 357.49 | Caller Stats\n\n13. Shyroshi Plays \n19:28 09/17/24 | MC: $2.1M 🎯ROI: 103%⚡️CPW: 1133.02 | Caller Stats\n\n14. Bob’s Gems 💎 \n22:25 09/18/24 | MC: $3.5M 🎯ROI: 9%⚡️CPW: 347.5 | Caller Stats\n\n‎0x8bAF5d75CaE25c7dF6d1E0d26C52d19Ee848301a‎\n\n🎯BUY: Maestro | Maestro Pro | Photon\n\n🔎Scan: DexS | DexT | PIRB Scan\n🔰Chain: #ETHEREUM | 🔰Name: Catalorian\n📞Caller: CallAnalyserBot\n📈Trending: KOL Trending 🔥\n\nListen to qualified calls in real time @CallAnalyser\n➖️➖️➖️➖️➖️➖️➖️➖\n📢 Ad:🌷Give you early launches from Devs: 👉Main | 👉Gamble🌷",
+        "media": null,
+        "replyMarkup": null,
+        "entities": [
+            {
+                "offset": 2,
+                "length": 12,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 65,
+                "length": 21,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 91,
+                "length": 11,
+                "url": "https://t.me/TheReaperGems/12868",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 133,
+                "length": 13,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 151,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 151,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 156,
+                "length": 9,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 168,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001667198684",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 185,
+                "length": 11,
+                "url": "https://t.me/ArcaneGems/7964",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 227,
+                "length": 12,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 243,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 243,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 248,
+                "length": 8,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 259,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001662041785",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 276,
+                "length": 29,
+                "url": "https://t.me/brookcalls/5896",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 336,
+                "length": 12,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 352,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 352,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 357,
+                "length": 9,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 369,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001829968037",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 386,
+                "length": 15,
+                "url": "https://t.me/PowsGemCalls/32495",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 430,
+                "length": 12,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 446,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 446,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 451,
+                "length": 9,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 463,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001198046393",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 480,
+                "length": 17,
+                "url": "https://t.me/MadarasCalls/13900",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 526,
+                "length": 10,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 536,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 536,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 541,
+                "length": 8,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 552,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001815753629",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 569,
+                "length": 12,
+                "url": "https://t.me/veigarcalls/6959",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 610,
+                "length": 10,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 620,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 620,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 625,
+                "length": 8,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 636,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001620856213",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 653,
+                "length": 17,
+                "url": "https://t.me/CharlesCalls/11910",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 699,
+                "length": 11,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 710,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 710,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 715,
+                "length": 9,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 727,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001611974309",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 799,
+                "length": 11,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 810,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 810,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 815,
+                "length": 9,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 827,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001655443406",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 844,
+                "length": 7,
+                "url": "https://t.me/EthGambles/1655",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 880,
+                "length": 10,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 890,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 890,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 895,
+                "length": 8,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 906,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001432113297",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 924,
+                "length": 10,
+                "url": "https://t.me/Maxi_Degen/1462",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 965,
+                "length": 12,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 981,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 981,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 986,
+                "length": 9,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 998,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001926943261",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1016,
+                "length": 12,
+                "url": "https://t.me/RIOGemsCalls/8384",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1059,
+                "length": 12,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1076,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1076,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1081,
+                "length": 9,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1093,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001890838504",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1111,
+                "length": 28,
+                "url": "https://t.me/spidersjournal/5480",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1168,
+                "length": 10,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1178,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1178,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1183,
+                "length": 8,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1194,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001164734593",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1212,
+                "length": 14,
+                "url": "https://t.me/shyroshiplays/2851",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1255,
+                "length": 11,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1266,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1266,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1271,
+                "length": 9,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1283,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001966731580",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1301,
+                "length": 13,
+                "url": "https://t.me/bobsgems/4142",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1343,
+                "length": 9,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1352,
+                "length": 5,
+                "url": "https://t.me/CallAnalyserPortal/130",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1352,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1357,
+                "length": 7,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1367,
+                "length": 12,
+                "url": "https://t.me/CallAnalyserBot?start=scan-caller-1001415271395",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1382,
+                "length": 42,
+                "className": "MessageEntityCode"
+            },
+            {
+                "offset": 1429,
+                "length": 3,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1429,
+                "length": 3,
+                "className": "MessageEntityUnderline"
+            },
+            {
+                "offset": 1434,
+                "length": 7,
+                "url": "https://t.me/MaestroSniperBot?start=0x8bAF5d75CaE25c7dF6d1E0d26C52d19Ee848301a-callanalyser",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1444,
+                "length": 11,
+                "url": "https://t.me/MaestroProBot?start=0x8bAF5d75CaE25c7dF6d1E0d26C52d19Ee848301a-callanalyser",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1458,
+                "length": 6,
+                "url": "https://photon.tinyastro.io/en/r/@CallAnalyser/0x8bAF5d75CaE25c7dF6d1E0d26C52d19Ee848301a",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1468,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1474,
+                "length": 4,
+                "url": "https://dexscreener.com/ethereum/0x750874E6fB8dCa30CE41D445E4BaF8c76971f912",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1481,
+                "length": 4,
+                "url": "https://www.dextools.io/app/en/ether/pair-explorer/0x750874E6fB8dCa30CE41D445E4BaF8c76971f912",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1488,
+                "length": 9,
+                "url": "https://t.me/PIRBViewBot?start=0x8bAF5d75CaE25c7dF6d1E0d26C52d19Ee848301a",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1500,
+                "length": 6,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1507,
+                "length": 9,
+                "className": "MessageEntityHashtag"
+            },
+            {
+                "offset": 1521,
+                "length": 5,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1540,
+                "length": 8,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1548,
+                "length": 15,
+                "url": "https://t.me/CallAnalyserBot",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1566,
+                "length": 9,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1576,
+                "length": 15,
+                "url": "https://t.me/walloftrophies/136",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1593,
+                "length": 38,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1632,
+                "length": 13,
+                "url": "https://t.me/CallAnalyser",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1665,
+                "length": 2,
+                "url": "https://t.me/CallAnalyser/3",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1670,
+                "length": 33,
+                "className": "MessageEntityBold"
+            },
+            {
+                "offset": 1707,
+                "length": 4,
+                "url": "https://t.me/+TJ9UE1Xiq0Y5YzQ0",
+                "className": "MessageEntityTextUrl"
+            },
+            {
+                "offset": 1716,
+                "length": 8,
+                "url": "https://t.me/+Hcn7XwYGt1A0ZWZk",
+                "className": "MessageEntityTextUrl"
+            }
+        ],
+        "views": 251,
+        "forwards": 9,
+        "replies": {
+            "flags": 7,
+            "comments": true,
+            "replies": 1,
+            "repliesPts": 643978,
+            "recentRepliers": [
+                {
+                    "userId": "6362041475",
+                    "className": "PeerUser"
+                }
+            ],
+            "channelId": "1904438593",
+            "maxId": 216518,
+            "readMaxId": null,
+            "className": "MessageReplies"
+        },
+        "editDate": 1726706339,
+        "postAuthor": null,
+        "groupedId": null,
+        "reactions": {
+            "flags": 0,
+            "min": false,
+            "canSeeList": false,
+            "reactionsAsTags": false,
+            "results": [
+                {
+                    "flags": 0,
+                    "chosenOrder": null,
+                    "reaction": {
+                        "emoticon": "❤",
+                        "className": "ReactionEmoji"
+                    },
+                    "count": 1,
+                    "className": "ReactionCount"
+                }
+            ],
+            "recentReactions": null,
+            "className": "MessageReactions"
+        },
+        "restrictionReason": null,
+        "ttlPeriod": null,
+        "quickReplyShortcutId": null,
+        "effect": null,
+        "factcheck": null,
+        "className": "Message"
+    }
+]

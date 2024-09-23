@@ -1,0 +1,242 @@
+[
+    {
+        "name": "neiroCabal",
+        "pair": "0x3885fbe4CD8aeD7b7e9625923927Fa1CE30662A3",
+        "address": "0xee2a03aa6dacf51c18679c516ad5283d8e7c2637"
+    },
+    {
+        "name": "clippy",
+        "pair": "0x0d70947cd19df8c67e6bbec9c7e21ec54df61c0f",
+        "address": "0x6304563f6639c077b519209f38611c0f67d6f10d"
+    },
+    {
+        "name": "husby",
+        "pair": "0x94053a31d5db6cada45fb560b77213b0ed237ea2",
+        "address": "0x41d06390b935356b46ad6750bda30148ad2044a4"
+    },
+    {
+        "name": "fomo",
+        "pair": "0xf6c4d325fa1e1649c5b9950edd028668714adbe7",
+        "address": "0x921d07059cb0640997251b577735a1bef90c408f"
+    },
+    {
+        "name": "rover",
+        "pair": "0x6f77f6923203c0d057564649b3cd2c1ecd733d67",
+        "address": "0x6af84e3e9fa8486b5cbb67c55ed1e7d9372a6d23"
+    },
+    {
+        "name": "eva",
+        "pair": "0x70024bd98ac4e22b85a1e8ea9f18f2d3241b3866",
+        "address": "0x3566c8ee9780245e974e759a7716ea6ba0702588"
+    },
+    {
+        "name": "etheism",
+        "pair": "0xfa01ce5bd8500d037c13ec7901d1f4b1f2174884",
+        "address": "0xc0cfbe1602dd586349f60e4681bf4badca584ec9"
+    },
+    {
+        "name": "taxfarming",
+        "pair": "0x7a564eb54e8b2244e5bb7c394e75f455e8a1e99d",
+        "address": "0x6db6fdb5182053eecec778afec95e0814172a474"
+    },
+    {
+        "name": "pedro",
+        "pair": "0x2438072736b393b40aad49e95998a782d5b7782f",
+        "address": "0x081044031affa0b44ea785e6e5806c2e6b25263b"
+    },
+    {
+        "name": "join",
+        "pair": "0xca2808E3F611dCE88f0FD3D3D3c6a76AC1F65950",
+        "address": "0x2074c1d66cb56f8e891559bddd2dedcff4e19147"
+    },
+    {
+        "name": "cate",
+        "pair": "0x68d66f784b49c2F3acF80E549cde65C81A0a1E12",
+        "address": "0xa00453052a36d43a99ac1ca145dfe4a952ca33b8"
+    },
+    {
+        "name": "berry",
+        "pair": "0xDd949D1fE117744A38319C7B7dcc045d630BCc8d",
+        "address": "0xcb76314c2540199f4b844d4ebbc7998c604880ca"
+    },
+    {
+        "name": "pythia",
+        "pair": "0xb0128508dfaf85d49f119d59f46e2aac40391dce",
+        "address": "0x66149ab384cc066fb9e6bc140f1378d1015045e9"
+    },
+    {
+        "name": "ebull",
+        "pair": "0x1f4ef1f8441caac34f58fb0cba813dd2b09fec63",
+        "address": "0x71297312753ea7a2570a5a3278ed70d9a75f4f44"
+    },
+    {
+        "name": "colon",
+        "pair": "0x97ad11FeF35C266F1f6DD157E7EeCFeCA7e172C1",
+        "address": "0xd09eb9099fac55edcbf4965e0a866779ca365a0c"
+    },
+    {
+        "name": "adoge",
+        "pair": "0xdD9c46705d64F2fa1Ea1Cf76909030C3276225EF",
+        "address": "0x71f9b21f0e6cb1ad7ec2f6c9c1a7981ef7197090"
+    },
+    {
+        "name": "yeah",
+        "pair": "0x97f5E9c85d888D0CB5c1a90275A5586562bef9FB",
+        "address": "0x30fffd4f8d8c2f09e0362e7a9eecff810ae2d4f3"
+    },
+    {
+        "name": "bill",
+        "pair": "0xe5d741CA7c7913faD61765ae69a1994cA5d11F9F",
+        "address": "0x6666669b30f12dc4107e4096d5427a1a42607b90"
+    },
+    {
+        "name": "kabosu",
+        "pair": "0xd12b39342d18277623de3b44fc70d17907cdea37",
+        "address": "0x180000dda70eb7fb7f3e10e52e88ce88f46e3b3a"
+    },
+    {
+        "name": "sato",
+        "pair": "0x1e79D6529f271876d202cbb216b856165D862353",
+        "address": "0x5de758bba013e58dae2693aea3f0b12b31a3023d"
+    },
+    {
+        "name": "vista",
+        "pair": "0xfdd05552f1377aa488afed744c8024358af02041",
+        "address": "0xc9bca88b04581699fab5aa276ccaff7df957cbbf"
+    },
+    {
+        "name": "sheesh",
+        "pair": "0x9c9573489bc5ed771af97f12180ec45c26c789e5",
+        "address": "0x52832a7116193786b8c02a97982e6bd5403ac395"
+    },
+    {
+        "name": "bruh",
+        "pair": "0x0d0bb71a3c473cf754203d7d0e2e67a684bebedc",
+        "address": "0xd7cfdb3cdc33dbeb9e9a4c95b61953cf12a008b3"
+    },
+    {
+        "name": "triton",
+        "pair": "0x85ffA25b894ec629373176F45226C429C5513B1a",
+        "address": "0x8c6691704d0c3630d6a4fbd5383e0f8e59e10616"
+    },
+    {
+        "name": "catalorian",
+        "pair": "0x750874e6fb8dca30ce41d445e4baf8c76971f912",
+        "address": "0x8baf5d75cae25c7df6d1e0d26c52d19ee848301a"
+    },
+    {
+        "name": "corn",
+        "pair": "0x6220add83b8103bffe40218e658068288eda4ec1",
+        "address": "0x3ce1f6bd6b0aa7520a14018dcc2261b1371d7c1a"
+    },
+    {
+        "name": "xypher",
+        "pair": "0xeb5d9a38011dd0736ddb7ee7aebf644c3e66c984",
+        "address": "0x7bece364e0fb8dfdc9b97b9016d20d2bfa24195e"
+    },
+    {
+        "name": "catei",
+        "pair": "0x65f5089d315288fb3450edf2e00405a9b81c51c9",
+        "address": "0x0281baeb40ff6772bda48b3aeb0ee82bae27a703"
+    },
+    {
+        "name": "fiber",
+        "pair": "0x2212e13545c66d00d58d150e82aaaeba14e255ff",
+        "address": "0xecbbe10d3b5adb681deb586d012b588e046bcb9b"
+    },
+    {
+        "name": "tales",
+        "pair": "0x9ead834b0e88cfdb86a8e2b15d063eea858cc627",
+        "address": "0x16950673c9817537e7cda10b482b90c0584c9101"
+    },
+    {
+        "name": "tsai",
+        "pair": "0x8fd98c44936feaf197cc86f1c1b7df8efe7fb18e",
+        "address": "0xe1c8d908f0e495cf6d8459547d1d28b72bf04bf2"
+    },
+    {
+        "name": "sherk",
+        "pair": "0x29b4f78c842cc8fe8f78d9d6cd9d8d9bbfd603df",
+        "address": "0x460372866fe1448de1549cebdb0539f4075a2aa8"
+    },
+    {
+        "name": "asteroid",
+        "pair": "0xdfF4bC41D6Fe3D97C7360E8489633d10198C6885",
+        "address": "0x30b60ba2cd26dcf355745ba52dfac2fddefe8072"
+    },
+    {
+        "name": "fuxi",
+        "pair": "0x5e0a95908a04fadf84de4aa2d16952db53e33c0e",
+        "address": "0x8fe36938aec172e757ade84a938683a3c9eddb40"
+    },
+    {
+        "name": "pepe",
+        "pair": "0xeB86b1CD1eD395AC70A00f53605811040D2f9a6B",
+        "address": "0x0bf043b7705a65468ee74d0f5ce4919eda3317a0"
+    },
+    {
+        "name": "bbull",
+        "pair": "0xba55805e62d697a79615fab343d18e11d1357d5b",
+        "address": "0xba55805e62d697a79615fab343d18e11d1357d5b"
+    },
+    {
+        "name": "yuge",
+        "pair": "0x30C81c12A125F0052D477fA60A2a8A6c1B1CD352",
+        "address": "0x7175412d8f20f29a1fa10c5770a8337a043e6fce"
+    },
+    {
+        "name": "trollicto",
+        "pair": "0xe0781250d68f5654f356835623a5927d824d8c22",
+        "address": "0x32d9f7c23d2b690d3b47efdcbdc59af29f484e68"
+    },
+    {
+        "name": "brug",
+        "pair": "0x7663860fc7bacb9ffae73457e1b774e3788e373d",
+        "address": "0x04c0dc93ce5698fa8a380cd8aff38710e04d4737"
+    },
+    {
+        "name": "tiraxtur",
+        "pair": "0x1bf9E93dC0aF9844D99d0a0Dc85B6A4a230053f1",
+        "address": "0xf70dae150b888415ea0165bd3a584607e18c0a56"
+    },
+    {
+        "name": "koto",
+        "pair": "0x6addf6b2f23d779c363b588baa1f8daf07d76b0f",
+        "address": "0x12f6deca0c82ac0b8f0556d78f98220b8c3059d1"
+    },
+    {
+        "name": "equ",
+        "pair": "0x589e4ca2a3ecb39aaccc9e8629081583585821a1",
+        "address": "0x85114874bb2ab376162c32fe8a3bc280493a90e5"
+    },
+    {
+        "name": "slh",
+        "pair": "0xef8e35ea164119b17515108cc9a327079b09391e",
+        "address": "0xcaa046e0571e6911ab98622a26f5cec9f6a4e514"
+    },
+    {
+        "name": "wigl",
+        "pair": "0x101a1a8e13b49933608ac2959505fa1d344eb57e",
+        "address": "0xf8206a19fca5999425358de4e4cdefc7f5c5d4ca"
+    },
+    {
+        "name": "baby",
+        "pair": "0x6042452acdeb655200f1f87620e5cd87f3709aa8",
+        "address": "0x19742c5eed3b6e984545e796e8e3708f9cc6764d"
+    },
+    {
+        "name": "boltai",
+        "pair": "0x42189bCCac7e6327A8279b02B8fFA82b55b2e1f8",
+        "address": "0xc8420ff1ff3474f262a0737548c51ff41335e3a3"
+    },
+    {
+        "name": "wit",
+        "pair": "0xdd13206446e27c53f9d99bc13fc137048a33a8bf",
+        "address": "0x0812eebcd567a26b53b34900dc412fe7fc8e557c"
+    },
+    {
+        "name": "froge",
+        "pair": "0x9b0f2dc645bb8fbcd5873294785ef433cbac7842",
+        "address": "0xd59b2f45a1c1bf475201893fb1a5d36156de5764"
+    }
+]

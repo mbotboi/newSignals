@@ -1,0 +1,3473 @@
+{
+    "okay": [
+        {
+            "name": "fomo",
+            "label": "okay",
+            "t": 1725220800,
+            "o": 0.0000249763810972,
+            "h": 0.00629618218734,
+            "l": 0.0000249763810972,
+            "c": 0.00494649598642,
+            "v": 108888,
+            "volume": "108887.86448817",
+            "buyVolume": "70946",
+            "sellVolume": "37945",
+            "buyers": 82,
+            "buys": 94,
+            "sellers": 9,
+            "sells": 27,
+            "liquidity": "35458.3520892",
+            "transactions": 121,
+            "traders": 82,
+            "mc": 494649.598642,
+            "volumeToMc": 0.5,
+            "liquidityToMC": 0,
+            "volToLiq": 0.25,
+            "buyVolToLiq": 0.25,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 34.44649446494464,
+            "flags": [],
+            "callData": {
+                "symbol": "FOMO",
+                "numberCalls": 7,
+                "calls": [
+                    {
+                        "caller": "Dream Calls 100x",
+                        "timestamp": 1725289620,
+                        "marketcap": "1.3M",
+                        "cpw": 392.08
+                    },
+                    {
+                        "caller": "🦍 ANGRY DEGEN 🐋",
+                        "timestamp": 1725459660,
+                        "marketcap": "1.0M"
+                    },
+                    {
+                        "caller": "CryptoCat Calls 📈🚀☎️",
+                        "timestamp": 1725481740,
+                        "marketcap": "793.3K",
+                        "cpw": 333.6
+                    },
+                    {
+                        "caller": "Prints Printing Press",
+                        "timestamp": 1725552600,
+                        "marketcap": "704.4K",
+                        "cpw": 343.15
+                    },
+                    {
+                        "caller": "Degen Seals",
+                        "timestamp": 1725953100,
+                        "marketcap": "601.4K",
+                        "cpw": 588.93
+                    },
+                    {
+                        "caller": "Ryoshi Gamble",
+                        "timestamp": 1726159920,
+                        "marketcap": "649.9K",
+                        "cpw": 387.47
+                    },
+                    {
+                        "caller": "Make Money With Matt 💰",
+                        "timestamp": 1726441080,
+                        "marketcap": "389.0K",
+                        "cpw": 159.62
+                    }
+                ]
+            },
+            "ca": "0x921d07059cb0640997251b577735a1bef90c408f",
+            "pair": "0xf6c4d325fa1e1649c5b9950edd028668714adbe7"
+        },
+        {
+            "name": "etheism",
+            "label": "okay",
+            "t": 1725472800,
+            "o": 5.38435897237,
+            "h": 3905.06911789,
+            "l": 5.38435897237,
+            "c": 2935.20751941,
+            "v": 2990956,
+            "volume": "2990955.85231544",
+            "buyVolume": "1576604",
+            "sellVolume": "1414353",
+            "buyers": 1125,
+            "buys": 1706,
+            "sellers": 522,
+            "sells": 842,
+            "liquidity": "145904.326913",
+            "transactions": 2548,
+            "traders": 1130,
+            "mc": 2935207.5194099997,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0.25,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 4,
+            "score": 30.784132841328415,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "E",
+                "numberCalls": 17,
+                "calls": [
+                    {
+                        "caller": "THE EYE 👀",
+                        "timestamp": 1725474600,
+                        "marketcap": "1.1M",
+                        "cpw": 1251.37
+                    },
+                    {
+                        "caller": "ELON MUSK CALLZ",
+                        "timestamp": 1725474660,
+                        "marketcap": "1.1M",
+                        "cpw": 1251.37
+                    },
+                    {
+                        "caller": "Degen Seals",
+                        "timestamp": 1725474660,
+                        "marketcap": "1.3M",
+                        "cpw": 1168.89
+                    },
+                    {
+                        "caller": "Pow's Gem Calls",
+                        "timestamp": 1725475680,
+                        "marketcap": "2.2M",
+                        "cpw": 1259.41
+                    },
+                    {
+                        "caller": "BagCalls 🎒🎒🎒",
+                        "timestamp": 1725475920,
+                        "marketcap": "3.0M",
+                        "cpw": 1179.78
+                    },
+                    {
+                        "caller": "Charles Gem Calls",
+                        "timestamp": 1725476040,
+                        "marketcap": "2.8M",
+                        "cpw": 1183.25
+                    },
+                    {
+                        "caller": "NyanDragon gems 🌓",
+                        "timestamp": 1725476700,
+                        "marketcap": "3.3M",
+                        "cpw": 1176.23
+                    },
+                    {
+                        "caller": "Chadley Calls",
+                        "timestamp": 1725479640,
+                        "marketcap": "3.6M",
+                        "cpw": 1169.97
+                    },
+                    {
+                        "caller": "SiG Calls",
+                        "timestamp": 1725491700,
+                        "marketcap": "3.7M",
+                        "cpw": 1169.06
+                    },
+                    {
+                        "caller": "Explorer Gems 🌙",
+                        "timestamp": 1725538140,
+                        "marketcap": "6.5M",
+                        "cpw": 396.29
+                    },
+                    {
+                        "caller": "Whale Calls",
+                        "timestamp": 1725542280,
+                        "marketcap": "8.1M"
+                    },
+                    {
+                        "caller": "Veigar Calls",
+                        "timestamp": 1725562260,
+                        "marketcap": "6.4M",
+                        "cpw": 381.44
+                    },
+                    {
+                        "caller": "Gems of Ra 💎👁‍🗨",
+                        "timestamp": 1725787320,
+                        "marketcap": "5.0M",
+                        "cpw": 350.95
+                    },
+                    {
+                        "caller": "Henry Club House 🦄",
+                        "timestamp": 1725977280,
+                        "marketcap": "2.2M",
+                        "cpw": 462.97
+                    }
+                ]
+            },
+            "ca": "0xc0cfbe1602dd586349f60e4681bf4badca584ec9",
+            "pair": "0xfa01ce5bd8500d037c13ec7901d1f4b1f2174884"
+        },
+        {
+            "name": "join",
+            "label": "okay",
+            "t": 1725922800,
+            "o": 0.0000590761789555,
+            "h": 0.0112367961331,
+            "l": 0.0000590761789555,
+            "c": 0.0036951965976,
+            "v": 859020,
+            "volume": "859019.7418521204",
+            "buyVolume": "446375",
+            "sellVolume": "412639",
+            "buyers": 494,
+            "buys": 731,
+            "sellers": 213,
+            "sells": 471,
+            "liquidity": "38399.039728",
+            "transactions": 1202,
+            "traders": 512,
+            "mc": 369519.65976,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0.25,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 30.784132841328415,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "JOIN",
+                "numberCalls": 5,
+                "calls": [
+                    {
+                        "caller": "ALIEN’S ALPHA CALLS",
+                        "timestamp": 1725931440,
+                        "marketcap": "680.8K",
+                        "cpw": 876.11
+                    },
+                    {
+                        "caller": "The Blockchain God's Gambles",
+                        "timestamp": 1725944340,
+                        "marketcap": "435.1K",
+                        "cpw": 943.88
+                    },
+                    {
+                        "caller": "The Blockchain Gods Multi Chain Calls- HOME OF THE TBG DYNASTY PRIVATE GROUP",
+                        "timestamp": 1725948600,
+                        "marketcap": "623.1K",
+                        "cpw": 882.25
+                    },
+                    {
+                        "caller": "Henry Club House 🦄",
+                        "timestamp": 1726011960,
+                        "marketcap": "475.4K",
+                        "cpw": 169.98
+                    },
+                    {
+                        "caller": "RIO Calls 🧲",
+                        "timestamp": 1726118820,
+                        "marketcap": "166.8K"
+                    }
+                ]
+            },
+            "ca": "0x2074c1d66cb56f8e891559bddd2dedcff4e19147",
+            "pair": "0xca2808E3F611dCE88f0FD3D3D3c6a76AC1F65950"
+        },
+        {
+            "name": "yeah",
+            "label": "okay",
+            "t": 1723510800,
+            "o": 0.00000280080490094,
+            "h": 0.000680033350068,
+            "l": 0.00000280080490094,
+            "c": 0.000250119890002,
+            "v": 1645061,
+            "volume": "1645061.288746345",
+            "buyVolume": "835252",
+            "sellVolume": "809812",
+            "buyers": 1215,
+            "buys": 1810,
+            "sellers": 768,
+            "sells": 1186,
+            "liquidity": "28201.18905",
+            "transactions": 2996,
+            "traders": 1223,
+            "mc": 250119.89000199997,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.5,
+            "buyersToSellers": 0.5,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 35.49815498154982,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "YEAH",
+                "numberCalls": 5,
+                "calls": [
+                    {
+                        "caller": "Degen Seals",
+                        "timestamp": 1723511820,
+                        "marketcap": "425.1K",
+                        "cpw": 829.23
+                    },
+                    {
+                        "caller": "RIO Calls 🧲",
+                        "timestamp": 1723522920,
+                        "marketcap": "384.4K",
+                        "cpw": 810
+                    },
+                    {
+                        "caller": "Charles Gem Calls",
+                        "timestamp": 1723522920,
+                        "marketcap": "381.0K",
+                        "cpw": 810.43
+                    },
+                    {
+                        "caller": "Pow's Gem Calls",
+                        "timestamp": 1723533240,
+                        "marketcap": "823.6K",
+                        "cpw": 338.44
+                    },
+                    {
+                        "caller": "DegensGOD || Multichain",
+                        "timestamp": 1723533540,
+                        "marketcap": "1.0M"
+                    }
+                ]
+            },
+            "ca": "0x30fffd4f8d8c2f09e0362e7a9eecff810ae2d4f3",
+            "pair": "0x97f5E9c85d888D0CB5c1a90275A5586562bef9FB"
+        },
+        {
+            "name": "kabosu",
+            "label": "okay",
+            "t": 1723402800,
+            "o": 1.88480282351e-7,
+            "h": 0.000140237159306,
+            "l": 1.88480282351e-7,
+            "c": 0.0000925502556516,
+            "v": 676251,
+            "volume": "676250.682212078",
+            "buyVolume": "366465",
+            "sellVolume": "309780",
+            "buyers": 347,
+            "buys": 457,
+            "sellers": 95,
+            "sells": 268,
+            "liquidity": "59095.3007961",
+            "transactions": 725,
+            "traders": 348,
+            "mc": 1665904.6017288,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 3,
+            "score": 28.182656826568266,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "KABOSU",
+                "numberCalls": 19,
+                "calls": [
+                    {
+                        "caller": "Dream Calls 100x",
+                        "timestamp": 1723405440,
+                        "marketcap": "1.4M",
+                        "cpw": 1255.44
+                    },
+                    {
+                        "caller": "Evee gems",
+                        "timestamp": 1723405560,
+                        "marketcap": "1.8M",
+                        "cpw": 1168.99
+                    },
+                    {
+                        "caller": "Prints Printing Press",
+                        "timestamp": 1723406760,
+                        "marketcap": "2.4M",
+                        "cpw": 1271.29
+                    },
+                    {
+                        "caller": "Archerr Calls🍊",
+                        "timestamp": 1723406880,
+                        "marketcap": "2.9M",
+                        "cpw": 1262.07
+                    },
+                    {
+                        "caller": "Crafty’s Trading Journal",
+                        "timestamp": 1723407060,
+                        "marketcap": "3.7M",
+                        "cpw": 1185.61
+                    },
+                    {
+                        "caller": "Charles Gem's Calls",
+                        "timestamp": 1723408200,
+                        "marketcap": "3.7M",
+                        "cpw": 1186.06
+                    },
+                    {
+                        "caller": "Pow's Gem Calls",
+                        "timestamp": 1723409460,
+                        "marketcap": "3.4M",
+                        "cpw": 1190.54
+                    },
+                    {
+                        "caller": "𝐁𝐫𝐨𝐨𝐤 𝐂𝐚𝐥𝐥𝐬 💀 🌂🎻",
+                        "timestamp": 1723409520,
+                        "marketcap": "3.7M",
+                        "cpw": 1186.53
+                    },
+                    {
+                        "caller": "ELON MUSK CALLZ",
+                        "timestamp": 1723409880,
+                        "marketcap": "3.5M",
+                        "cpw": 1189.32
+                    },
+                    {
+                        "caller": "Reaper Gems",
+                        "timestamp": 1723410300,
+                        "marketcap": "3.1M",
+                        "cpw": 1195.26
+                    },
+                    {
+                        "caller": "N0 FXCKS GIVEN GAMBLES",
+                        "timestamp": 1723410780,
+                        "marketcap": "4.1M",
+                        "cpw": 1180.56
+                    },
+                    {
+                        "caller": "NO FXCKS GIVEN BOOLISH",
+                        "timestamp": 1723410840,
+                        "marketcap": "4.6M",
+                        "cpw": 973.49
+                    },
+                    {
+                        "caller": "YooshiCalls",
+                        "timestamp": 1723410900,
+                        "marketcap": "4.6M",
+                        "cpw": 972.53
+                    },
+                    {
+                        "caller": "Dr",
+                        "timestamp": 1723414020,
+                        "marketcap": "5.2M",
+                        "cpw": 1018.21
+                    }
+                ]
+            },
+            "ca": "0x180000dda70eb7fb7f3e10e52e88ce88f46e3b3a",
+            "pair": "0xd12b39342d18277623de3b44fc70d17907cdea37"
+        },
+        {
+            "name": "sheesh",
+            "label": "okay",
+            "t": 1725069600,
+            "o": 3.73349806498e-9,
+            "h": 4.45200281055e-7,
+            "l": 3.73349806498e-9,
+            "c": 2.53150900996e-7,
+            "v": 64307,
+            "volume": "64306.5370654314",
+            "buyVolume": "36777",
+            "sellVolume": "27526",
+            "buyers": 160,
+            "buys": 206,
+            "sellers": 43,
+            "sells": 92,
+            "liquidity": "10502.5806016",
+            "transactions": 298,
+            "traders": 164,
+            "mc": 106498.05254000724,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 28.182656826568266,
+            "flags": [],
+            "callData": {
+                "symbol": "SHEESH",
+                "numberCalls": 6,
+                "calls": [
+                    {
+                        "caller": "BagCalls 🎒🎒🎒",
+                        "timestamp": 1725070260,
+                        "marketcap": "87.4K",
+                        "cpw": 844.69
+                    },
+                    {
+                        "caller": "CoCo 🔥TradeZ",
+                        "timestamp": 1725074400,
+                        "marketcap": "104.0K",
+                        "cpw": 850.63
+                    },
+                    {
+                        "caller": "Robin Hood Riches",
+                        "timestamp": 1725086580,
+                        "marketcap": "235.7K",
+                        "cpw": 752.93
+                    },
+                    {
+                        "caller": "SOL|ETH MASTERS",
+                        "timestamp": 1725099780,
+                        "marketcap": "448.8K",
+                        "cpw": 313.63
+                    },
+                    {
+                        "caller": "🦁 LION CALLS 🦁 (Crypto AMAs & Reviews)",
+                        "timestamp": 1725110040,
+                        "marketcap": "401.6K",
+                        "cpw": 311.73
+                    },
+                    {
+                        "caller": "Luca Apes",
+                        "timestamp": 1726220220,
+                        "marketcap": "122.2K",
+                        "cpw": 695.52
+                    }
+                ]
+            },
+            "ca": "0x52832a7116193786b8c02a97982e6bd5403ac395",
+            "pair": "0x9c9573489bc5ed771af97f12180ec45c26c789e5"
+        },
+        {
+            "name": "triton",
+            "label": "okay",
+            "t": 1724853600,
+            "o": 0.056056172017,
+            "h": 0.761798242031,
+            "l": 0.056056172017,
+            "c": 0.554483908161,
+            "v": 230204,
+            "volume": "230203.526417803",
+            "buyVolume": "169299",
+            "sellVolume": "60906",
+            "buyers": 121,
+            "buys": 155,
+            "sellers": 29,
+            "sells": 65,
+            "liquidity": "158554.092094",
+            "transactions": 220,
+            "traders": 121,
+            "mc": 554483.908161,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0.75,
+            "buyVolToLiq": 0.75,
+            "sellVolToLiq": 0.5,
+            "participantEngagement": 0.25,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 4,
+            "score": 33.24723247232472,
+            "flags": [],
+            "callData": {
+                "symbol": "TRITON",
+                "numberCalls": 2,
+                "calls": [
+                    {
+                        "caller": "Luca Apes",
+                        "timestamp": 1724854260,
+                        "marketcap": "522.0K",
+                        "cpw": 970.29
+                    },
+                    {
+                        "caller": "𝐁𝐫𝐨𝐨𝐤 𝐂𝐚𝐥𝐥𝐬 💀 🌂🎻",
+                        "timestamp": 1724886240,
+                        "marketcap": "1.5M",
+                        "cpw": 402.74
+                    }
+                ]
+            },
+            "ca": "0x8c6691704d0c3630d6a4fbd5383e0f8e59e10616",
+            "pair": "0x85ffA25b894ec629373176F45226C429C5513B1a"
+        },
+        {
+            "name": "catalorian",
+            "label": "okay",
+            "t": 1726254000,
+            "o": 0.00000280363514443,
+            "h": 0.000876458079418,
+            "l": 0.00000280363514443,
+            "c": 0.000610710709577,
+            "v": 1262410,
+            "volume": "1262410.386033618",
+            "buyVolume": "649166",
+            "sellVolume": "613217",
+            "buyers": 742,
+            "buys": 1096,
+            "sellers": 410,
+            "sells": 741,
+            "liquidity": "38353.2196441",
+            "transactions": 1837,
+            "traders": 745,
+            "mc": 610710.709577,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.5,
+            "buysToSells": 0.5,
+            "buyersToSellers": 0.5,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 37.361623616236166,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "CATALORIAN",
+                "numberCalls": 14,
+                "calls": [
+                    {
+                        "caller": "Reaper Gems",
+                        "timestamp": 1726255140,
+                        "marketcap": "243.2K",
+                        "cpw": 1320.04
+                    },
+                    {
+                        "caller": "Arcane Gems",
+                        "timestamp": 1726257600,
+                        "marketcap": "610.2K",
+                        "cpw": 1118.1
+                    },
+                    {
+                        "caller": "𝐁𝐫𝐨𝐨𝐤 𝐂𝐚𝐥𝐥𝐬 💀 🌂🎻",
+                        "timestamp": 1726257780,
+                        "marketcap": "807.1K",
+                        "cpw": 1026.28
+                    },
+                    {
+                        "caller": "Pow's Gem Calls",
+                        "timestamp": 1726258140,
+                        "marketcap": "1.4M",
+                        "cpw": 1106.25
+                    },
+                    {
+                        "caller": "Madara's Calls 🧲",
+                        "timestamp": 1726258320,
+                        "marketcap": "3.4M",
+                        "cpw": 475.19
+                    },
+                    {
+                        "caller": "Veigar Calls",
+                        "timestamp": 1726258320,
+                        "marketcap": "3.4M",
+                        "cpw": 475.19
+                    },
+                    {
+                        "caller": "Charles Gem Calls",
+                        "timestamp": 1726259040,
+                        "marketcap": "1.6M",
+                        "cpw": 1034.34
+                    },
+                    {
+                        "caller": "Micha Calls / 100% Organic",
+                        "timestamp": 1726266420,
+                        "marketcap": "1.7M",
+                        "cpw": 1032.75
+                    },
+                    {
+                        "caller": "GAMBLES",
+                        "timestamp": 1726268100,
+                        "marketcap": "2.3M",
+                        "cpw": 935.85
+                    },
+                    {
+                        "caller": "Maxi Degen",
+                        "timestamp": 1726321560,
+                        "marketcap": "676.1K",
+                        "cpw": 1111.49
+                    },
+                    {
+                        "caller": "RIO Calls 🧲",
+                        "timestamp": 1726457160,
+                        "marketcap": "400.9K",
+                        "cpw": 1200.65
+                    },
+                    {
+                        "caller": "SpiderCrypto Trading Journal",
+                        "timestamp": 1726525920,
+                        "marketcap": "3.8M",
+                        "cpw": 357.49
+                    },
+                    {
+                        "caller": "Shyroshi Plays",
+                        "timestamp": 1726601280,
+                        "marketcap": "2.1M",
+                        "cpw": 1133.02
+                    },
+                    {
+                        "caller": "Bob’s Gems 💎",
+                        "timestamp": 1726698300,
+                        "marketcap": "3.5M",
+                        "cpw": 347.5
+                    }
+                ]
+            },
+            "ca": "0x8baf5d75cae25c7df6d1e0d26c52d19ee848301a",
+            "pair": "0x750874e6fb8dca30ce41d445e4baf8c76971f912"
+        },
+        {
+            "name": "corn",
+            "label": "okay",
+            "t": 1726174800,
+            "o": 0.0000521297298846,
+            "h": 0.00190987319776,
+            "l": 0.0000521297298846,
+            "c": 0.00146943259677,
+            "v": 759315,
+            "volume": "759315.469443718",
+            "buyVolume": "431790",
+            "sellVolume": "327501",
+            "buyers": 337,
+            "buys": 455,
+            "sellers": 144,
+            "sells": 229,
+            "liquidity": "134095.514885",
+            "transactions": 684,
+            "traders": 337,
+            "mc": 1469432.5967700002,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0.25,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.5,
+            "liquidityTier": 4,
+            "score": 24.474169741697413,
+            "flags": [],
+            "callData": {
+                "symbol": "CORN",
+                "numberCalls": 11,
+                "calls": [
+                    {
+                        "caller": "Micha Calls / 100% Organic",
+                        "timestamp": 1726176540,
+                        "marketcap": "1.2M",
+                        "cpw": 1023.28
+                    },
+                    {
+                        "caller": "Pow's Gem Calls",
+                        "timestamp": 1726176540,
+                        "marketcap": "1.2M",
+                        "cpw": 1023.28
+                    },
+                    {
+                        "caller": "VenoMCalls",
+                        "timestamp": 1726176720,
+                        "marketcap": "1.2M",
+                        "cpw": 1019.65
+                    },
+                    {
+                        "caller": "Daydreamer's Crypto Hub",
+                        "timestamp": 1726177500,
+                        "marketcap": "1.3M",
+                        "cpw": 1017.53
+                    },
+                    {
+                        "caller": "Archerr Calls🍊",
+                        "timestamp": 1726177560,
+                        "marketcap": "1.5M",
+                        "cpw": 1007.11
+                    },
+                    {
+                        "caller": "Veigar Calls",
+                        "timestamp": 1726181700,
+                        "marketcap": "2.0M",
+                        "cpw": 804.35
+                    },
+                    {
+                        "caller": "Brody Calls 📣💎",
+                        "timestamp": 1726184460,
+                        "marketcap": "2.9M",
+                        "cpw": 351.85
+                    },
+                    {
+                        "caller": "Evee gems",
+                        "timestamp": 1726185600,
+                        "marketcap": "2.9M",
+                        "cpw": 347.69
+                    },
+                    {
+                        "caller": "ALIEN’S ALPHA CALLS",
+                        "timestamp": 1726190760,
+                        "marketcap": "2.4M",
+                        "cpw": 457.3
+                    },
+                    {
+                        "caller": "Explorer Gems 🌙",
+                        "timestamp": 1726254060,
+                        "marketcap": "1.2M",
+                        "cpw": 692.7
+                    },
+                    {
+                        "caller": "Whale Calls",
+                        "timestamp": 1726261080,
+                        "marketcap": "1.6M",
+                        "cpw": 396.68
+                    }
+                ]
+            },
+            "ca": "0x3ce1f6bd6b0aa7520a14018dcc2261b1371d7c1a",
+            "pair": "0x6220add83b8103bffe40218e658068288eda4ec1"
+        },
+        {
+            "name": "xypher",
+            "label": "okay",
+            "t": 1726261200,
+            "o": 0.000024491792853,
+            "h": 0.00401691572187,
+            "l": 0.000024491792853,
+            "c": 0.000898813670848,
+            "v": 134796,
+            "volume": "134796.100204771",
+            "buyVolume": "73706",
+            "sellVolume": "61105",
+            "buyers": 213,
+            "buys": 278,
+            "sellers": 70,
+            "sells": 148,
+            "liquidity": "15043.5243082",
+            "transactions": 426,
+            "traders": 215,
+            "mc": 89881.3670848,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.75,
+            "liquidityTier": 2,
+            "score": 25.027675276752767,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "ca": "0x7bece364e0fb8dfdc9b97b9016d20d2bfa24195e",
+            "pair": "0xeb5d9a38011dd0736ddb7ee7aebf644c3e66c984"
+        },
+        {
+            "name": "tsai",
+            "label": "okay",
+            "t": 1725465600,
+            "o": 0.00000563926884743,
+            "h": 0.000656197160152,
+            "l": 0.00000563926884743,
+            "c": 0.000492866765997,
+            "v": 375687,
+            "volume": "375686.9153769717",
+            "buyVolume": "208489",
+            "sellVolume": "167185",
+            "buyers": 322,
+            "buys": 432,
+            "sellers": 66,
+            "sells": 104,
+            "liquidity": "46278.6333228",
+            "transactions": 536,
+            "traders": 339,
+            "mc": 492866.765997,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 24.206642066420667,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "TSAI",
+                "numberCalls": 10,
+                "calls": [
+                    {
+                        "caller": "Henry Club House 🦄",
+                        "timestamp": 1725468660,
+                        "marketcap": "335.3K",
+                        "cpw": 790.73
+                    },
+                    {
+                        "caller": "NyanDragon gems 🌓",
+                        "timestamp": 1725469080,
+                        "marketcap": "401.7K",
+                        "cpw": 801.86
+                    },
+                    {
+                        "caller": "The Manager’s Calls ☎️",
+                        "timestamp": 1725469380,
+                        "marketcap": "445.4K",
+                        "cpw": 650.13
+                    },
+                    {
+                        "caller": "Chadley Calls",
+                        "timestamp": 1725472260,
+                        "marketcap": "434.6K",
+                        "cpw": 651.79
+                    },
+                    {
+                        "caller": "Explorer Gems 🌙",
+                        "timestamp": 1725473100,
+                        "marketcap": "459.9K",
+                        "cpw": 647.23
+                    },
+                    {
+                        "caller": "Degen Seals",
+                        "timestamp": 1725515640,
+                        "marketcap": "427.8K",
+                        "cpw": 653.05
+                    },
+                    {
+                        "caller": "EZ Money’s Gems 💎",
+                        "timestamp": 1725535440,
+                        "marketcap": "494.6K",
+                        "cpw": 565.31
+                    },
+                    {
+                        "caller": "Thor's Hammer Gems (VERIFY ME ON TWITTER)",
+                        "timestamp": 1725546900,
+                        "marketcap": "533.2K",
+                        "cpw": 578
+                    },
+                    {
+                        "caller": "The Caller",
+                        "timestamp": 1725733020,
+                        "marketcap": "430.2K",
+                        "cpw": 652.64
+                    },
+                    {
+                        "caller": "Micha Calls / 100% Organic",
+                        "timestamp": 1726144740,
+                        "marketcap": "644.8K",
+                        "cpw": 330.97
+                    }
+                ]
+            },
+            "ca": "0xe1c8d908f0e495cf6d8459547d1d28b72bf04bf2",
+            "pair": "0x8fd98c44936feaf197cc86f1c1b7df8efe7fb18e"
+        }
+    ],
+    "decent": [
+        {
+            "name": "husby",
+            "label": "decent",
+            "t": 1725368400,
+            "o": 0.000064172725783,
+            "h": 0.00205132038586,
+            "l": 0.000064172725783,
+            "c": 0.0019773350728,
+            "v": 79610,
+            "volume": "79609.691521082",
+            "buyVolume": "52307",
+            "sellVolume": "27299",
+            "buyers": 176,
+            "buys": 209,
+            "sellers": 15,
+            "sells": 315,
+            "liquidity": "30409.4441132",
+            "transactions": 524,
+            "traders": 176,
+            "mc": 197733.50728000002,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0.25,
+            "buyVolToLiq": 0.25,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.5,
+            "buysToSells": 1,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.5,
+            "liquidityTier": 2,
+            "score": 35.05535055350554,
+            "flags": [],
+            "callData": {
+                "symbol": "HUSBY",
+                "numberCalls": 6,
+                "calls": [
+                    {
+                        "caller": "Daydreamer's Crypto Hub",
+                        "timestamp": 1725372780,
+                        "marketcap": "842.7K",
+                        "cpw": 1389.67
+                    },
+                    {
+                        "caller": "Evee gems",
+                        "timestamp": 1725398400,
+                        "marketcap": "1.3M",
+                        "cpw": 1266.42
+                    },
+                    {
+                        "caller": "Henry Club House 🦄",
+                        "timestamp": 1725433200,
+                        "marketcap": "1.7M",
+                        "cpw": 1178.03
+                    },
+                    {
+                        "caller": "Dream Calls 100x",
+                        "timestamp": 1725457500,
+                        "marketcap": "1.8M",
+                        "cpw": 1177.17
+                    },
+                    {
+                        "caller": "Thanos Gems 💎",
+                        "timestamp": 1725575100,
+                        "marketcap": "2.1M",
+                        "cpw": 1286.19
+                    },
+                    {
+                        "caller": "Bob’s Gems 💎",
+                        "timestamp": 1726080240,
+                        "marketcap": "7.0M",
+                        "cpw": 589.58
+                    }
+                ]
+            },
+            "ca": "0x41d06390b935356b46ad6750bda30148ad2044a4",
+            "pair": "0x94053a31d5db6cada45fb560b77213b0ed237ea2"
+        },
+        {
+            "name": "eva",
+            "label": "decent",
+            "t": 1725382800,
+            "o": 0.0000867102337478,
+            "h": 0.000372826239521,
+            "l": 0.0000867102337478,
+            "c": 0.000372826239521,
+            "v": 9983,
+            "volume": "9983.344520789",
+            "buyVolume": "8543",
+            "sellVolume": "1439",
+            "buyers": 46,
+            "buys": 55,
+            "sellers": 9,
+            "sells": 15,
+            "liquidity": "13690.3609231",
+            "transactions": 70,
+            "traders": 46,
+            "mc": 37282.6239521,
+            "volumeToMc": 0.25,
+            "liquidityToMC": 0,
+            "volToLiq": 1,
+            "buyVolToLiq": 1,
+            "sellVolToLiq": 1,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 2,
+            "score": 43.84686346863469,
+            "flags": [],
+            "callData": {
+                "symbol": "",
+                "numberCalls": 1,
+                "calls": [
+                    {
+                        "caller": "King Dawg’s Calls",
+                        "timestamp": 1725388980,
+                        "marketcap": "127.8K",
+                        "cpw": 723.73
+                    }
+                ]
+            },
+            "ca": "0x3566c8ee9780245e974e759a7716ea6ba0702588",
+            "pair": "0x70024bd98ac4e22b85a1e8ea9f18f2d3241b3866"
+        },
+        {
+            "name": "pythia",
+            "label": "decent",
+            "t": 1725300000,
+            "o": 0.0265448323652,
+            "h": 0.642977716983,
+            "l": 0.0265448323652,
+            "c": 0.55113534703,
+            "v": 57990,
+            "volume": "57989.9831183977",
+            "buyVolume": "38025",
+            "sellVolume": "19967",
+            "buyers": 129,
+            "buys": 154,
+            "sellers": 38,
+            "sells": 66,
+            "liquidity": "23116.7635622",
+            "transactions": 220,
+            "traders": 129,
+            "mc": 211847452.71034098,
+            "volumeToMc": 1,
+            "liquidityToMC": 1,
+            "volToLiq": 0.5,
+            "buyVolToLiq": 0.5,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.25,
+            "liquidityTier": 2,
+            "score": 46.42066420664206,
+            "flags": [],
+            "callData": {
+                "symbol": "P",
+                "numberCalls": 7,
+                "calls": [
+                    {
+                        "caller": "Pow's Gem Calls",
+                        "timestamp": 1725311220,
+                        "marketcap": "548.1K",
+                        "cpw": 884.88
+                    },
+                    {
+                        "caller": "Reaper Gems",
+                        "timestamp": 1725320220,
+                        "marketcap": "780.4K",
+                        "cpw": 598.94
+                    },
+                    {
+                        "caller": "💰ANIME GEMS💰",
+                        "timestamp": 1725326580,
+                        "marketcap": "1.3M"
+                    },
+                    {
+                        "caller": "Emilian's Calls",
+                        "timestamp": 1725353400,
+                        "marketcap": "515.2K",
+                        "cpw": 857.14
+                    },
+                    {
+                        "caller": "Thor's Hammer Gems (VERIFY ME ON TWITTER)",
+                        "timestamp": 1725442200,
+                        "marketcap": "353.3K",
+                        "cpw": 248.3
+                    },
+                    {
+                        "caller": "𝐁𝐫𝐨𝐨𝐤 𝐂𝐚𝐥𝐥𝐬 💀 🌂🎻",
+                        "timestamp": 1725442200,
+                        "marketcap": "353.3K",
+                        "cpw": 248.3
+                    },
+                    {
+                        "caller": "Cryptic_Maestro",
+                        "timestamp": 1725442500,
+                        "marketcap": "355.7K",
+                        "cpw": 192.32
+                    }
+                ]
+            },
+            "ca": "0x66149ab384cc066fb9e6bc140f1378d1015045e9",
+            "pair": "0xb0128508dfaf85d49f119d59f46e2aac40391dce"
+        },
+        {
+            "name": "ebull",
+            "label": "decent",
+            "t": 1724256000,
+            "o": 1.73772797687e-7,
+            "h": 0.000642752628628,
+            "l": 1.73772797687e-7,
+            "c": 0.00040835217229,
+            "v": 418467,
+            "volume": "418467.04729079",
+            "buyVolume": "246861",
+            "sellVolume": "171602",
+            "buyers": 204,
+            "buys": 246,
+            "sellers": 49,
+            "sells": 61,
+            "liquidity": "76820.5200665",
+            "transactions": 307,
+            "traders": 209,
+            "mc": 4083521.7229,
+            "volumeToMc": 1,
+            "liquidityToMC": 0.25,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 3,
+            "score": 37.05719557195572,
+            "flags": [],
+            "callData": {
+                "symbol": "EBULL",
+                "numberCalls": 20,
+                "calls": [
+                    {
+                        "caller": "Pow's Gem Calls",
+                        "timestamp": 1724289420,
+                        "marketcap": "16.5M",
+                        "cpw": 1314.54
+                    },
+                    {
+                        "caller": "leoclub main",
+                        "timestamp": 1724373360,
+                        "marketcap": "17.3M",
+                        "cpw": 1091.42
+                    },
+                    {
+                        "caller": "Born2Pump Elitors (PumpHouse)",
+                        "timestamp": 1724590620,
+                        "marketcap": "16.9M",
+                        "cpw": 1092.41
+                    },
+                    {
+                        "caller": "中国密码鲸公司 🇨🇳🐳🚀🌖",
+                        "timestamp": 1724756760,
+                        "marketcap": "16.6M",
+                        "cpw": 1314.35
+                    },
+                    {
+                        "caller": "GAMBLES",
+                        "timestamp": 1724796480,
+                        "marketcap": "10.2M",
+                        "cpw": 1403.27
+                    },
+                    {
+                        "caller": "Make Money With Matt 💰",
+                        "timestamp": 1724807340,
+                        "marketcap": "10.8M",
+                        "cpw": 1400.38
+                    },
+                    {
+                        "caller": "DogenMan|🎯",
+                        "timestamp": 1724902260,
+                        "marketcap": "12.1M",
+                        "cpw": 1331.46
+                    },
+                    {
+                        "caller": "Prints Printing Press",
+                        "timestamp": 1725022560,
+                        "marketcap": "8.1M",
+                        "cpw": 1414.29
+                    },
+                    {
+                        "caller": "SpiderCrypto Trading Journal",
+                        "timestamp": 1725022860,
+                        "marketcap": "9.0M",
+                        "cpw": 1409.34
+                    },
+                    {
+                        "caller": "Thanos Gems 💎",
+                        "timestamp": 1725022920,
+                        "marketcap": "9.7M",
+                        "cpw": 1405.92
+                    },
+                    {
+                        "caller": "Pepper Calls 🌶",
+                        "timestamp": 1725025020,
+                        "marketcap": "11.4M",
+                        "cpw": 1334.03
+                    },
+                    {
+                        "caller": "eezzy’s journal",
+                        "timestamp": 1725025920,
+                        "marketcap": "12.0M",
+                        "cpw": 1331.82
+                    },
+                    {
+                        "caller": "VenoMCalls",
+                        "timestamp": 1725031800,
+                        "marketcap": "18.3M",
+                        "cpw": 1088.25
+                    },
+                    {
+                        "caller": "Veigar Calls",
+                        "timestamp": 1725031860,
+                        "marketcap": "18.4M",
+                        "cpw": 1087.79
+                    }
+                ]
+            },
+            "ca": "0x71297312753ea7a2570a5a3278ed70d9a75f4f44",
+            "pair": "0x1f4ef1f8441caac34f58fb0cba813dd2b09fec63"
+        },
+        {
+            "name": "colon",
+            "label": "decent",
+            "t": 1723690800,
+            "o": 0.00000350608120047,
+            "h": 0.00253012957138,
+            "l": 0.00000350608120047,
+            "c": 0.00138920497619,
+            "v": 822346,
+            "volume": "822345.512423057",
+            "buyVolume": "437235",
+            "sellVolume": "385135",
+            "buyers": 501,
+            "buys": 614,
+            "sellers": 188,
+            "sells": 291,
+            "liquidity": "54737.413011",
+            "transactions": 905,
+            "traders": 527,
+            "mc": 1389204.9761899998,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0.25,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 3,
+            "score": 30.784132841328415,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "COLON",
+                "numberCalls": 20,
+                "calls": [
+                    {
+                        "caller": "MoonEagle Calls",
+                        "timestamp": 1723693620,
+                        "marketcap": "570.6K",
+                        "cpw": 1428.01
+                    },
+                    {
+                        "caller": "Bunny's Crypto Reviews ∆",
+                        "timestamp": 1723693620,
+                        "marketcap": "495.4K",
+                        "cpw": 1413.62
+                    },
+                    {
+                        "caller": "Reaper Gems",
+                        "timestamp": 1723693680,
+                        "marketcap": "319.2K",
+                        "cpw": 1907.81
+                    },
+                    {
+                        "caller": "FISH ALPHA 🦍",
+                        "timestamp": 1723693740,
+                        "marketcap": "464.6K",
+                        "cpw": 1648.44
+                    },
+                    {
+                        "caller": "VenoMCalls",
+                        "timestamp": 1723693800,
+                        "marketcap": "617.6K",
+                        "cpw": 1421.07
+                    },
+                    {
+                        "caller": "Ryoshi Gamble",
+                        "timestamp": 1723694100,
+                        "marketcap": "1.2M",
+                        "cpw": 1356.25
+                    },
+                    {
+                        "caller": "Sapphire Call’s",
+                        "timestamp": 1723694100,
+                        "marketcap": "1.1M",
+                        "cpw": 1363.61
+                    },
+                    {
+                        "caller": "House Atreides Multichain",
+                        "timestamp": 1723694580,
+                        "marketcap": "1.8M",
+                        "cpw": 1178.42
+                    },
+                    {
+                        "caller": "Dream Calls 100x",
+                        "timestamp": 1723694760,
+                        "marketcap": "1.6M",
+                        "cpw": 1260.37
+                    },
+                    {
+                        "caller": "Prints Printing Press",
+                        "timestamp": 1723695660,
+                        "marketcap": "2.1M",
+                        "cpw": 1289.94
+                    },
+                    {
+                        "caller": "YooshiCalls",
+                        "timestamp": 1723695720,
+                        "marketcap": "1.9M",
+                        "cpw": 1176.84
+                    },
+                    {
+                        "caller": "GAMBLES",
+                        "timestamp": 1723696140,
+                        "marketcap": "2.9M",
+                        "cpw": 1274.36
+                    },
+                    {
+                        "caller": "Prower Calls",
+                        "timestamp": 1723696440,
+                        "marketcap": "2.8M",
+                        "cpw": 1276.15
+                    }
+                ]
+            },
+            "ca": "0xd09eb9099fac55edcbf4965e0a866779ca365a0c",
+            "pair": "0x97ad11FeF35C266F1f6DD157E7EeCFeCA7e172C1"
+        },
+        {
+            "name": "adoge",
+            "label": "decent",
+            "t": 1723647600,
+            "o": 0.0000134142353225,
+            "h": 0.00611812653974,
+            "l": 0.0000134142353225,
+            "c": 0.00536212376627,
+            "v": 74694,
+            "volume": "74693.733248175",
+            "buyVolume": "50199",
+            "sellVolume": "24495",
+            "buyers": 152,
+            "buys": 160,
+            "sellers": 23,
+            "sells": 27,
+            "liquidity": "26983.4393688",
+            "transactions": 187,
+            "traders": 152,
+            "mc": 536212.3766269999,
+            "volumeToMc": 0.75,
+            "liquidityToMC": 0,
+            "volToLiq": 0.25,
+            "buyVolToLiq": 0.25,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 37.07564575645757,
+            "flags": [],
+            "ca": "0x71f9b21f0e6cb1ad7ec2f6c9c1a7981ef7197090",
+            "pair": "0xdD9c46705d64F2fa1Ea1Cf76909030C3276225EF"
+        },
+        {
+            "name": "bruh",
+            "label": "decent",
+            "t": 1724875200,
+            "o": 0.00000251822229249,
+            "h": 0.00308667663767,
+            "l": 0.00000251822229249,
+            "c": 0.00206692840916,
+            "v": 259978,
+            "volume": "259977.8227836104",
+            "buyVolume": "165116",
+            "sellVolume": "94854",
+            "buyers": 198,
+            "buys": 227,
+            "sellers": 29,
+            "sells": 49,
+            "liquidity": "73100.8576879",
+            "transactions": 276,
+            "traders": 198,
+            "mc": 2066928.40916,
+            "volumeToMc": 0.75,
+            "liquidityToMC": 0,
+            "volToLiq": 0.25,
+            "buyVolToLiq": 0.25,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 3,
+            "score": 37.07564575645757,
+            "flags": [],
+            "callData": {
+                "symbol": "BRUH",
+                "numberCalls": 34,
+                "calls": [
+                    {
+                        "caller": "ELON MUSK CALLZ",
+                        "timestamp": 1724878020,
+                        "marketcap": "1.1M",
+                        "cpw": 1835.28
+                    },
+                    {
+                        "caller": "leoclub main",
+                        "timestamp": 1724879700,
+                        "marketcap": "2.8M",
+                        "cpw": 1529.2
+                    },
+                    {
+                        "caller": "@plays Gambles",
+                        "timestamp": 1724880480,
+                        "marketcap": "3.3M",
+                        "cpw": 1519.5
+                    },
+                    {
+                        "caller": "Crafty’s Trading Journal",
+                        "timestamp": 1724880480,
+                        "marketcap": "3.3M",
+                        "cpw": 1519.5
+                    },
+                    {
+                        "caller": "Chad Crypto",
+                        "timestamp": 1724881680,
+                        "marketcap": "3.4M",
+                        "cpw": 1438.55
+                    },
+                    {
+                        "caller": "Evee gems",
+                        "timestamp": 1724883660,
+                        "marketcap": "5.2M",
+                        "cpw": 1406.99
+                    },
+                    {
+                        "caller": "𝐁𝐫𝐨𝐨𝐤 𝐂𝐚𝐥𝐥𝐬 💀 🌂🎻",
+                        "timestamp": 1724886000,
+                        "marketcap": "6.2M",
+                        "cpw": 1400.11
+                    },
+                    {
+                        "caller": "Thanos Gems 💎",
+                        "timestamp": 1724887140,
+                        "marketcap": "7.2M",
+                        "cpw": 1393.79
+                    },
+                    {
+                        "caller": "Sugar Calls",
+                        "timestamp": 1724887140,
+                        "marketcap": "7.1M",
+                        "cpw": 1394.53
+                    },
+                    {
+                        "caller": "eezzy’s journal",
+                        "timestamp": 1724887920,
+                        "marketcap": "8.7M",
+                        "cpw": 1384.17
+                    },
+                    {
+                        "caller": "Veigar Calls",
+                        "timestamp": 1724890140,
+                        "marketcap": "6.7M",
+                        "cpw": 1396.95
+                    },
+                    {
+                        "caller": "Brody Calls💰🦍",
+                        "timestamp": 1724890740,
+                        "marketcap": "8.2M",
+                        "cpw": 1387.16
+                    },
+                    {
+                        "caller": "ALIEN’S ALPHA CALLS",
+                        "timestamp": 1724895120,
+                        "marketcap": "5.2M",
+                        "cpw": 1407.73
+                    },
+                    {
+                        "caller": "KOBE'S CALLS",
+                        "timestamp": 1724936400,
+                        "marketcap": "13.4M",
+                        "cpw": 1079.5
+                    }
+                ]
+            },
+            "ca": "0xd7cfdb3cdc33dbeb9e9a4c95b61953cf12a008b3",
+            "pair": "0x0d0bb71a3c473cf754203d7d0e2e67a684bebedc"
+        },
+        {
+            "name": "catei",
+            "label": "decent",
+            "t": 1726318800,
+            "o": 4.06358081433e-9,
+            "h": 1.33134950993e-7,
+            "l": 4.06358081433e-9,
+            "c": 9.16709351294e-8,
+            "v": 60686,
+            "volume": "60686.091654711",
+            "buyVolume": "32664",
+            "sellVolume": "28018",
+            "buyers": 212,
+            "buys": 248,
+            "sellers": 92,
+            "sells": 160,
+            "liquidity": "5859.69081811",
+            "transactions": 408,
+            "traders": 216,
+            "mc": 38565.04569958728,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0.25,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.5,
+            "liquidityTier": 1,
+            "score": 24.474169741697413,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "CATEI",
+                "numberCalls": 2,
+                "calls": [
+                    {
+                        "caller": "Maestros Gamble Degen Apes",
+                        "timestamp": 1726321200,
+                        "marketcap": "10.4K",
+                        "cpw": 1251.49
+                    },
+                    {
+                        "caller": "CS Calls",
+                        "timestamp": 1726334580,
+                        "marketcap": "274.1K"
+                    }
+                ]
+            },
+            "ca": "0x0281baeb40ff6772bda48b3aeb0ee82bae27a703",
+            "pair": "0x65f5089d315288fb3450edf2e00405a9b81c51c9"
+        }
+    ],
+    "good": [],
+    "great": [
+        {
+            "name": "neiroCabal",
+            "label": "great",
+            "t": 1722117600,
+            "o": 0.00000164240006266,
+            "h": 0.0109306034732,
+            "l": 0.00000164240006266,
+            "c": 0.00491469658038,
+            "v": 1002950,
+            "volume": "1002949.807469086",
+            "buyVolume": "546443",
+            "sellVolume": "456491",
+            "buyers": 303,
+            "buys": 386,
+            "sellers": 111,
+            "sells": 174,
+            "liquidity": "91472.2105453",
+            "transactions": 560,
+            "traders": 303,
+            "mc": 4914696.58038,
+            "volumeToMc": 0.5,
+            "liquidityToMC": 0.5,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 3,
+            "score": 38.108856088560884,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "NEIRO",
+                "numberCalls": 48,
+                "calls": [
+                    {
+                        "caller": "@plays Gambles",
+                        "timestamp": 1722119580,
+                        "marketcap": "1.2M",
+                        "cpw": 2501.56
+                    },
+                    {
+                        "caller": "Daydreamer's Crypto Hub",
+                        "timestamp": 1722119760,
+                        "marketcap": "3.7M",
+                        "cpw": 2468.2
+                    },
+                    {
+                        "caller": "ELON MUSK CALLZ",
+                        "timestamp": 1722119880,
+                        "marketcap": "7.8M",
+                        "cpw": 2438.52
+                    },
+                    {
+                        "caller": "SpiderCrypto Trading Journal",
+                        "timestamp": 1722120120,
+                        "marketcap": "4.4M",
+                        "cpw": 2448.27
+                    },
+                    {
+                        "caller": "Dream Calls 100x",
+                        "timestamp": 1722120360,
+                        "marketcap": "9.1M",
+                        "cpw": 2419.56
+                    },
+                    {
+                        "caller": "𝐁𝐫𝐨𝐨𝐤 𝐂𝐚𝐥𝐥𝐬 💀 🌂🎻",
+                        "timestamp": 1722120360,
+                        "marketcap": "9.0M",
+                        "cpw": 2420.85
+                    },
+                    {
+                        "caller": "Prints Printing Press",
+                        "timestamp": 1722121680,
+                        "marketcap": "4.9M",
+                        "cpw": 2434.25
+                    },
+                    {
+                        "caller": "Mark Degens",
+                        "timestamp": 1722121680,
+                        "marketcap": "4.9M",
+                        "cpw": 2434.25
+                    },
+                    {
+                        "caller": "eezzy’s journal",
+                        "timestamp": 1722124320,
+                        "marketcap": "5.3M",
+                        "cpw": 2485.79
+                    },
+                    {
+                        "caller": "GAMBLES",
+                        "timestamp": 1722130440,
+                        "marketcap": "4.5M",
+                        "cpw": 2445.64
+                    },
+                    {
+                        "caller": "Sapphire Call’s",
+                        "timestamp": 1722138240,
+                        "marketcap": "2.0M",
+                        "cpw": 2545.92
+                    },
+                    {
+                        "caller": "Luffy’s diary",
+                        "timestamp": 1722139620,
+                        "marketcap": "3.1M",
+                        "cpw": 2492.12
+                    },
+                    {
+                        "caller": "WIFE CHANGING CALLS",
+                        "timestamp": 1722140040,
+                        "marketcap": "4.4M",
+                        "cpw": 2446.44
+                    }
+                ]
+            },
+            "ca": "0xee2a03aa6dacf51c18679c516ad5283d8e7c2637",
+            "pair": "0x3885fbe4CD8aeD7b7e9625923927Fa1CE30662A3"
+        },
+        {
+            "name": "rover",
+            "label": "great",
+            "t": 1725256800,
+            "o": 4.41249406984e-7,
+            "h": 0.000093270958371,
+            "l": 4.41249406984e-7,
+            "c": 0.0000310536655662,
+            "v": 33506,
+            "volume": "33506.0906729854",
+            "buyVolume": "18381",
+            "sellVolume": "15119",
+            "buyers": 66,
+            "buys": 77,
+            "sellers": 12,
+            "sells": 17,
+            "liquidity": "3698.47708886",
+            "transactions": 94,
+            "traders": 66,
+            "mc": 31053.6655662,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 1,
+            "score": 24.206642066420667,
+            "flags": [
+                "Extremely high volume to liquidity ratio",
+                "Very low liquidity"
+            ],
+            "callData": {
+                "symbol": "ROVER",
+                "numberCalls": 4,
+                "calls": [
+                    {
+                        "caller": "Henry Club House",
+                        "timestamp": 1725266580,
+                        "marketcap": "318.8K",
+                        "cpw": 940.15
+                    },
+                    {
+                        "caller": "𝐙𝐢𝐛𝐬☠︎𝐍𝐚𝐭𝐢ø𝐧'𝐬 ⚑ 𝐃𝐢𝐚𝐫𝐲🗼",
+                        "timestamp": 1725431820,
+                        "marketcap": "297.5K",
+                        "cpw": 918.66
+                    },
+                    {
+                        "caller": "Pepper Calls 🌶",
+                        "timestamp": 1725487320,
+                        "marketcap": "1.5M",
+                        "cpw": 393.94
+                    },
+                    {
+                        "caller": "CoCo 🔥TradeZ",
+                        "timestamp": 1725850440,
+                        "marketcap": "917.9K",
+                        "cpw": 341.34
+                    }
+                ]
+            },
+            "ca": "0x6af84e3e9fa8486b5cbb67c55ed1e7d9372a6d23",
+            "pair": "0x6f77f6923203c0d057564649b3cd2c1ecd733d67"
+        },
+        {
+            "name": "taxfarming",
+            "label": "great",
+            "t": 1725480000,
+            "o": 0.00000306270471025,
+            "h": 0.000178140028735,
+            "l": 0.00000306270471025,
+            "c": 0.00013156423015,
+            "v": 168764,
+            "volume": "168763.686048062",
+            "buyVolume": "91363",
+            "sellVolume": "77414",
+            "buyers": 179,
+            "buys": 295,
+            "sellers": 92,
+            "sells": 286,
+            "liquidity": "16422.2869335",
+            "transactions": 581,
+            "traders": 179,
+            "mc": 131564.23015,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.5,
+            "buysToSells": 0.75,
+            "buyersToSellers": 0.25,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.75,
+            "liquidityTier": 2,
+            "score": 33.717712177121776,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "FARM",
+                "numberCalls": 9,
+                "calls": [
+                    {
+                        "caller": "SpiderCrypto Trading Journal",
+                        "timestamp": 1725513660,
+                        "marketcap": "4.4M",
+                        "cpw": 486.65
+                    },
+                    {
+                        "caller": "江峰日记 Gem's💎",
+                        "timestamp": 1725516780,
+                        "marketcap": "5.7M",
+                        "cpw": 364.29
+                    },
+                    {
+                        "caller": "Gubbins Calls",
+                        "timestamp": 1725547020,
+                        "marketcap": "3.7M",
+                        "cpw": 828.11
+                    },
+                    {
+                        "caller": "Doxxed GEM Club 宝藏频道💎",
+                        "timestamp": 1725686700,
+                        "marketcap": "1.6M",
+                        "cpw": 293.8
+                    }
+                ]
+            },
+            "ca": "0x6db6fdb5182053eecec778afec95e0814172a474",
+            "pair": "0x7a564eb54e8b2244e5bb7c394e75f455e8a1e99d"
+        },
+        {
+            "name": "pedro",
+            "label": "great",
+            "t": 1725555600,
+            "o": 0.0000056211797978,
+            "h": 0.0000891206978354,
+            "l": 0.0000056211797978,
+            "c": 0.0000543602689325,
+            "v": 25097,
+            "volume": "25097.06672754",
+            "buyVolume": "17604",
+            "sellVolume": "7489",
+            "buyers": 43,
+            "buys": 46,
+            "sellers": 4,
+            "sells": 12,
+            "liquidity": "14907.7028309",
+            "transactions": 58,
+            "traders": 43,
+            "mc": 54360.2689325,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0.75,
+            "buyVolToLiq": 0.75,
+            "sellVolToLiq": 0.5,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 2,
+            "score": 31.383763837638377,
+            "flags": [],
+            "callData": {
+                "symbol": "PEDRO",
+                "numberCalls": 3,
+                "calls": [
+                    {
+                        "caller": "Nik's Eth + Sol Plays",
+                        "timestamp": 1725561000,
+                        "marketcap": "403.1K",
+                        "cpw": 1062.46
+                    },
+                    {
+                        "caller": "Micha Calls / 100% Organic",
+                        "timestamp": 1725562380,
+                        "marketcap": "1.6M",
+                        "cpw": 705.57
+                    },
+                    {
+                        "caller": "Jeety Calls",
+                        "timestamp": 1725625020,
+                        "marketcap": "1.2M",
+                        "cpw": 810.13
+                    }
+                ]
+            },
+            "ca": "0x081044031affa0b44ea785e6e5806c2e6b25263b",
+            "pair": "0x2438072736b393b40aad49e95998a782d5b7782f"
+        },
+        {
+            "name": "cate",
+            "label": "great",
+            "t": 1725915600,
+            "o": 0.00000147654876092,
+            "h": 0.000074677897219,
+            "l": 0.00000147654876092,
+            "c": 0.0000628364274915,
+            "v": 21096,
+            "volume": "21096.187433525",
+            "buyVolume": "13828",
+            "sellVolume": "7269",
+            "buyers": 92,
+            "buys": 104,
+            "sellers": 20,
+            "sells": 39,
+            "liquidity": "7765.23817409",
+            "transactions": 143,
+            "traders": 92,
+            "mc": 62836.4274915,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0.25,
+            "buyVolToLiq": 0.25,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.75,
+            "liquidityTier": 1,
+            "score": 26.033210332103323,
+            "flags": [],
+            "callData": {
+                "symbol": "CATE",
+                "numberCalls": 31,
+                "calls": [
+                    {
+                        "caller": "Archerr Calls🍊",
+                        "timestamp": 1725922140,
+                        "marketcap": "1.8M",
+                        "cpw": 1879.28
+                    },
+                    {
+                        "caller": "Evee gems",
+                        "timestamp": 1725922260,
+                        "marketcap": "2.1M",
+                        "cpw": 1980.24
+                    },
+                    {
+                        "caller": "Thanos Gems 💎",
+                        "timestamp": 1725922380,
+                        "marketcap": "2.3M",
+                        "cpw": 1741.78
+                    },
+                    {
+                        "caller": "Reaper Gems",
+                        "timestamp": 1725922380,
+                        "marketcap": "2.3M",
+                        "cpw": 1741.78
+                    },
+                    {
+                        "caller": "Dr",
+                        "timestamp": 1725922920,
+                        "marketcap": "3.1M",
+                        "cpw": 1721.21
+                    },
+                    {
+                        "caller": "Maybach Calls",
+                        "timestamp": 1725923700,
+                        "marketcap": "2.9M",
+                        "cpw": 1727.27
+                    },
+                    {
+                        "caller": "Sugar Calls",
+                        "timestamp": 1725926760,
+                        "marketcap": "4.5M",
+                        "cpw": 1570.59
+                    },
+                    {
+                        "caller": "Brody Calls 📣💎",
+                        "timestamp": 1725927420,
+                        "marketcap": "4.3M",
+                        "cpw": 1697.37
+                    },
+                    {
+                        "caller": "SpiderCrypto Trading Journal",
+                        "timestamp": 1725928800,
+                        "marketcap": "4.5M",
+                        "cpw": 1570.08
+                    },
+                    {
+                        "caller": "ALIEN’S ALPHA CALLS",
+                        "timestamp": 1725930660,
+                        "marketcap": "7.0M",
+                        "cpw": 1531.27
+                    },
+                    {
+                        "caller": "ELON MUSK CALLZ",
+                        "timestamp": 1725935940,
+                        "marketcap": "5.2M",
+                        "cpw": 1624.32
+                    },
+                    {
+                        "caller": "♚QUEEN Defi CALLs♚",
+                        "timestamp": 1725940380,
+                        "marketcap": "5.0M",
+                        "cpw": 1564.61
+                    },
+                    {
+                        "caller": "Make Money With Matt 💰",
+                        "timestamp": 1725940620,
+                        "marketcap": "5.2M",
+                        "cpw": 1625.09
+                    },
+                    {
+                        "caller": "leoclub main",
+                        "timestamp": 1725945660,
+                        "marketcap": "4.3M",
+                        "cpw": 1697.17
+                    }
+                ]
+            },
+            "ca": "0xa00453052a36d43a99ac1ca145dfe4a952ca33b8",
+            "pair": "0x68d66f784b49c2F3acF80E549cde65C81A0a1E12"
+        },
+        {
+            "name": "berry",
+            "label": "great",
+            "t": 1723539600,
+            "o": 0.0000527692476578,
+            "h": 0.000310485566727,
+            "l": 0.0000527692476578,
+            "c": 0.000173892114732,
+            "v": 13732,
+            "volume": "13731.9898209982",
+            "buyVolume": "8520",
+            "sellVolume": "5213",
+            "buyers": 62,
+            "buys": 67,
+            "sellers": 17,
+            "sells": 17,
+            "liquidity": "7274.27114",
+            "transactions": 84,
+            "traders": 62,
+            "mc": 17389.2114732,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0.5,
+            "buyVolToLiq": 0.75,
+            "sellVolToLiq": 0.25,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 1,
+            "score": 26.494464944649447,
+            "flags": [],
+            "callData": {
+                "symbol": "BERRY",
+                "numberCalls": 7,
+                "calls": [
+                    {
+                        "caller": "Easy's Gems",
+                        "timestamp": 1723931160,
+                        "marketcap": "601.0K",
+                        "cpw": 2032.03
+                    },
+                    {
+                        "caller": "leoclub main",
+                        "timestamp": 1724719800,
+                        "marketcap": "3.0M",
+                        "cpw": 1516.5
+                    },
+                    {
+                        "caller": "Henry Club House",
+                        "timestamp": 1724898120,
+                        "marketcap": "2.0M",
+                        "cpw": 1549.95
+                    },
+                    {
+                        "caller": "Kobe's Gambles",
+                        "timestamp": 1725133860,
+                        "marketcap": "4.6M",
+                        "cpw": 1343.62
+                    },
+                    {
+                        "caller": "Achilles SafeHaven Calls",
+                        "timestamp": 1725397740,
+                        "marketcap": "6.4M",
+                        "cpw": 1391.94
+                    },
+                    {
+                        "caller": "SpiderCrypto Trading Journal",
+                        "timestamp": 1725429720,
+                        "marketcap": "5.6M",
+                        "cpw": 1397.41
+                    },
+                    {
+                        "caller": "Bob’s Gems 💎",
+                        "timestamp": 1726230360,
+                        "marketcap": "8.5M",
+                        "cpw": 1314.38
+                    }
+                ]
+            },
+            "ca": "0xcb76314c2540199f4b844d4ebbc7998c604880ca",
+            "pair": "0xDd949D1fE117744A38319C7B7dcc045d630BCc8d"
+        },
+        {
+            "name": "bill",
+            "label": "great",
+            "t": 1723478400,
+            "o": 0.0000140554602996,
+            "h": 0.000674748378345,
+            "l": 0.0000140554602996,
+            "c": 0.000315071624832,
+            "v": 107845,
+            "volume": "107844.84403873",
+            "buyVolume": "59019",
+            "sellVolume": "48823",
+            "buyers": 189,
+            "buys": 238,
+            "sellers": 94,
+            "sells": 175,
+            "liquidity": "12838.4099007",
+            "transactions": 413,
+            "traders": 189,
+            "mc": 63329.396591232,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.5,
+            "buyersToSellers": 0.25,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.5,
+            "liquidityTier": 2,
+            "score": 26.586715867158674,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "BILL",
+                "numberCalls": 3,
+                "calls": [
+                    {
+                        "caller": "Maestros Gamble Degen Apes",
+                        "timestamp": 1723492200,
+                        "marketcap": "69.9K",
+                        "cpw": 1458.73
+                    },
+                    {
+                        "caller": "Luca Apes",
+                        "timestamp": 1723543620,
+                        "marketcap": "235.7K",
+                        "cpw": 1100.53
+                    },
+                    {
+                        "caller": "SOL|ETH MASTERS",
+                        "timestamp": 1724074800,
+                        "marketcap": "1.3M",
+                        "cpw": 297.54
+                    }
+                ]
+            },
+            "ca": "0x6666669b30f12dc4107e4096d5427a1a42607b90",
+            "pair": "0xe5d741CA7c7913faD61765ae69a1994cA5d11F9F"
+        },
+        {
+            "name": "sato",
+            "label": "great",
+            "t": 1723582800,
+            "o": 0.00000135372475643,
+            "h": 0.00521379177419,
+            "l": 0.00000135372475643,
+            "c": 0.00330616823775,
+            "v": 947401,
+            "volume": "947401.4072494449",
+            "buyVolume": "507284",
+            "sellVolume": "440118",
+            "buyers": 270,
+            "buys": 407,
+            "sellers": 88,
+            "sells": 212,
+            "liquidity": "69067.4968252",
+            "transactions": 619,
+            "traders": 283,
+            "mc": 3306168.2377500003,
+            "volumeToMc": 0.25,
+            "liquidityToMC": 0.25,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 3,
+            "score": 33.14575645756457,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "SATO",
+                "numberCalls": 35,
+                "calls": [
+                    {
+                        "caller": "Maestros Gamble Degen Apes",
+                        "timestamp": 1723584300,
+                        "marketcap": "632.5K",
+                        "cpw": 2143.84
+                    },
+                    {
+                        "caller": "💰ANIME GEMS💰",
+                        "timestamp": 1723584840,
+                        "marketcap": "1.7M",
+                        "cpw": 1878.26
+                    },
+                    {
+                        "caller": "Thor's Hammer Gems (VERIFY ME ON TWITTER)",
+                        "timestamp": 1723584840,
+                        "marketcap": "2.0M",
+                        "cpw": 1865.46
+                    },
+                    {
+                        "caller": "Dream Calls 100x",
+                        "timestamp": 1723585200,
+                        "marketcap": "2.3M",
+                        "cpw": 1739.89
+                    },
+                    {
+                        "caller": "CriptoGemas Calls",
+                        "timestamp": 1723585200,
+                        "marketcap": "2.2M",
+                        "cpw": 1969.42
+                    },
+                    {
+                        "caller": "Poké Calls | catch 'em all",
+                        "timestamp": 1723585380,
+                        "marketcap": "3.0M",
+                        "cpw": 1720.67
+                    },
+                    {
+                        "caller": "Luca Apes",
+                        "timestamp": 1723585860,
+                        "marketcap": "2.5M",
+                        "cpw": 1733.04
+                    },
+                    {
+                        "caller": "Nagato's Gem Calls",
+                        "timestamp": 1723586280,
+                        "marketcap": "3.6M",
+                        "cpw": 1707.1
+                    },
+                    {
+                        "caller": "Born2Pump Elitors (PumpHouse)",
+                        "timestamp": 1723588320,
+                        "marketcap": "4.5M",
+                        "cpw": 1567.05
+                    },
+                    {
+                        "caller": "Sugar Calls",
+                        "timestamp": 1723593180,
+                        "marketcap": "4.3M",
+                        "cpw": 1569.33
+                    },
+                    {
+                        "caller": "Reaper Gems",
+                        "timestamp": 1723593240,
+                        "marketcap": "4.3M",
+                        "cpw": 1569.56
+                    },
+                    {
+                        "caller": "Ryoshi Gamble",
+                        "timestamp": 1723608600,
+                        "marketcap": "9.5M",
+                        "cpw": 1441.38
+                    },
+                    {
+                        "caller": "江峰日记 Gem's Calls💎",
+                        "timestamp": 1723609380,
+                        "marketcap": "10.8M",
+                        "cpw": 1436.43
+                    }
+                ]
+            },
+            "ca": "0x5de758bba013e58dae2693aea3f0b12b31a3023d",
+            "pair": "0x1e79D6529f271876d202cbb216b856165D862353"
+        },
+        {
+            "name": "vista",
+            "label": "great",
+            "t": 1725120000,
+            "o": 0.0251771324372,
+            "h": 0.532782163285,
+            "l": 0.0251771324372,
+            "c": 0.380212964161,
+            "v": 425790,
+            "volume": "425790.367517809",
+            "buyVolume": "249314",
+            "sellVolume": "176499",
+            "buyers": 184,
+            "buys": 387,
+            "sellers": 53,
+            "sells": 326,
+            "liquidity": "98085.821948",
+            "transactions": 713,
+            "traders": 187,
+            "mc": 380212.964161,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.75,
+            "buysToSells": 0.5,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.25,
+            "liquidityTier": 3,
+            "score": 24.557195571955724,
+            "flags": [],
+            "callData": {
+                "symbol": "VISTA",
+                "numberCalls": 18,
+                "calls": [
+                    {
+                        "caller": "Pow's Gem Calls",
+                        "timestamp": 1725258240,
+                        "marketcap": "5.1M",
+                        "cpw": 1517.66
+                    },
+                    {
+                        "caller": "SpiderCrypto Trading Journal",
+                        "timestamp": 1725258960,
+                        "marketcap": "6.7M",
+                        "cpw": 1431.48
+                    },
+                    {
+                        "caller": "GAMBLES",
+                        "timestamp": 1725262560,
+                        "marketcap": "11.4M",
+                        "cpw": 1408.95
+                    },
+                    {
+                        "caller": "jerry jeet ( stream trade )",
+                        "timestamp": 1725264600,
+                        "marketcap": "12.7M",
+                        "cpw": 1339.82
+                    },
+                    {
+                        "caller": "RIO Calls 🧲",
+                        "timestamp": 1725268320,
+                        "marketcap": "15.2M",
+                        "cpw": 1331.53
+                    },
+                    {
+                        "caller": "江峰日记 Gem's💎",
+                        "timestamp": 1725269220,
+                        "marketcap": "13.0M",
+                        "cpw": 1338.79
+                    },
+                    {
+                        "caller": "Bazzy's Research",
+                        "timestamp": 1725287100,
+                        "marketcap": "14.7M",
+                        "cpw": 1333.32
+                    },
+                    {
+                        "caller": "Brody Calls💰🦍",
+                        "timestamp": 1725353580,
+                        "marketcap": "15.0M",
+                        "cpw": 1332.36
+                    },
+                    {
+                        "caller": "Nagato's Gem Calls",
+                        "timestamp": 1725489900,
+                        "marketcap": "31.9M",
+                        "cpw": 426.16
+                    },
+                    {
+                        "caller": "𝐁𝐫𝐨𝐨𝐤 𝐂𝐚𝐥𝐥𝐬 💀 🌂🎻",
+                        "timestamp": 1725643920,
+                        "marketcap": "20.4M",
+                        "cpw": 551.2
+                    },
+                    {
+                        "caller": "Make Money With Matt 💰",
+                        "timestamp": 1725644100,
+                        "marketcap": "21.3M",
+                        "cpw": 547.38
+                    },
+                    {
+                        "caller": "Robinhood Gems ♦️",
+                        "timestamp": 1725680520,
+                        "marketcap": "21.9M",
+                        "cpw": 544.72
+                    },
+                    {
+                        "caller": "Prime Gems 🪐",
+                        "timestamp": 1725751800,
+                        "marketcap": "22.0M",
+                        "cpw": 543.56
+                    },
+                    {
+                        "caller": "Degen Seals",
+                        "timestamp": 1725783840,
+                        "marketcap": "22.6M",
+                        "cpw": 420.12
+                    }
+                ]
+            },
+            "ca": "0xc9bca88b04581699fab5aa276ccaff7df957cbbf",
+            "pair": "0xfdd05552f1377aa488afed744c8024358af02041"
+        }
+    ],
+    "snipedDumped": [
+        {
+            "name": "fiber",
+            "label": "snipedDumped",
+            "t": 1725292800,
+            "o": 0.000379582468826,
+            "h": 0.11946232887,
+            "l": 0.000379582468826,
+            "c": 0.0511022968453,
+            "v": 274368,
+            "volume": "274368.117009286",
+            "buyVolume": "150785",
+            "sellVolume": "123583",
+            "buyers": 196,
+            "buys": 278,
+            "sellers": 52,
+            "sells": 121,
+            "liquidity": "37174.6500085",
+            "transactions": 399,
+            "traders": 200,
+            "mc": 511022.968453,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 26.070110701107012,
+            "flags": [],
+            "callData": {
+                "symbol": "F",
+                "numberCalls": 4,
+                "calls": [
+                    {
+                        "caller": "Henry Club House",
+                        "timestamp": 1725293220,
+                        "marketcap": "321.4K",
+                        "cpw": 618.96
+                    },
+                    {
+                        "caller": "Luca Apes",
+                        "timestamp": 1725295500,
+                        "marketcap": "537.6K",
+                        "cpw": 175.07
+                    },
+                    {
+                        "caller": "Shyroshi Gambles",
+                        "timestamp": 1725299700,
+                        "marketcap": "395.7K",
+                        "cpw": 158.12
+                    },
+                    {
+                        "caller": "The Godfather’s Empire 🌹",
+                        "timestamp": 1725380700,
+                        "marketcap": "324.3K",
+                        "cpw": 124.99
+                    }
+                ]
+            },
+            "ca": "0xecbbe10d3b5adb681deb586d012b588e046bcb9b",
+            "pair": "0x2212e13545c66d00d58d150e82aaaeba14e255ff"
+        },
+        {
+            "name": "tales",
+            "label": "snipedDumped",
+            "t": 1725303600,
+            "o": 6.81476984044e-11,
+            "h": 0.00000117124845655,
+            "l": 6.81476984044e-11,
+            "c": 9.28744680723e-7,
+            "v": 764921,
+            "volume": "764920.895167327",
+            "buyVolume": "603118",
+            "sellVolume": "161805",
+            "buyers": 156,
+            "buys": 164,
+            "sellers": 40,
+            "sells": 43,
+            "liquidity": "445068.076576",
+            "transactions": 207,
+            "traders": 156,
+            "mc": 64474103.05233717,
+            "volumeToMc": 1,
+            "liquidityToMC": 1,
+            "volToLiq": 0.75,
+            "buyVolToLiq": 0.5,
+            "sellVolToLiq": 0.75,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 4,
+            "score": 63.76383763837639,
+            "flags": [],
+            "callData": {
+                "symbol": "TALES",
+                "numberCalls": 1,
+                "calls": [
+                    {
+                        "caller": "Make Money With Matt 💰",
+                        "timestamp": 1725641940,
+                        "marketcap": "30.7M",
+                        "cpw": 414.22
+                    }
+                ]
+            },
+            "ca": "0x16950673c9817537e7cda10b482b90c0584c9101",
+            "pair": "0x9ead834b0e88cfdb86a8e2b15d063eea858cc627"
+        },
+        {
+            "name": "sherk",
+            "label": "snipedDumped",
+            "t": 1725469200,
+            "o": 0.00000619233645902,
+            "h": 0.0133672486837,
+            "l": 0.00000618619438794,
+            "c": 0.000817607832825,
+            "v": 1394327,
+            "volume": "1394326.9179385489",
+            "buyVolume": "724321",
+            "sellVolume": "670014",
+            "buyers": 662,
+            "buys": 945,
+            "sellers": 196,
+            "sells": 262,
+            "liquidity": "58812.7163217",
+            "transactions": 1207,
+            "traders": 689,
+            "mc": 817607.8328249999,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 0,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 3,
+            "score": 14.483394833948342,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "SHERK",
+                "numberCalls": 19,
+                "calls": [
+                    {
+                        "caller": "Crafty’s Trading Journal",
+                        "timestamp": 1725470700,
+                        "marketcap": "373.2K",
+                        "cpw": 810.06
+                    },
+                    {
+                        "caller": "𝐁𝐫𝐨𝐨𝐤 𝐂𝐚𝐥𝐥𝐬 💀 🌂🎻",
+                        "timestamp": 1725470700,
+                        "marketcap": "530.6K",
+                        "cpw": 686.63
+                    },
+                    {
+                        "caller": "Gubbins Calls",
+                        "timestamp": 1725470700,
+                        "marketcap": "333.2K",
+                        "cpw": 881.43
+                    },
+                    {
+                        "caller": "Veigar Calls",
+                        "timestamp": 1725470760,
+                        "marketcap": "461.4K",
+                        "cpw": 820.67
+                    },
+                    {
+                        "caller": "ELON MUSK CALLZ",
+                        "timestamp": 1725470880,
+                        "marketcap": "371.1K",
+                        "cpw": 810.61
+                    },
+                    {
+                        "caller": "DegensGOD || Multichain",
+                        "timestamp": 1725471000,
+                        "marketcap": "524.5K",
+                        "cpw": 687.3
+                    },
+                    {
+                        "caller": "Kingdom of X100 CALLS",
+                        "timestamp": 1725471000,
+                        "marketcap": "378.9K",
+                        "cpw": 809.1
+                    },
+                    {
+                        "caller": "Micha Calls / 100% Organic",
+                        "timestamp": 1725471060,
+                        "marketcap": "378.9K",
+                        "cpw": 809.1
+                    },
+                    {
+                        "caller": "CS Call & Signals ™",
+                        "timestamp": 1725471420,
+                        "marketcap": "630.9K",
+                        "cpw": 593.27
+                    },
+                    {
+                        "caller": "Daydreamer's Crypto Hub",
+                        "timestamp": 1725471540,
+                        "marketcap": "519.6K",
+                        "cpw": 688.02
+                    },
+                    {
+                        "caller": "Archerr Calls🍊",
+                        "timestamp": 1725472020,
+                        "marketcap": "571.3K",
+                        "cpw": 681.01
+                    },
+                    {
+                        "caller": "🦍 ANGRY DEGEN 🐋",
+                        "timestamp": 1725472740,
+                        "marketcap": "832.4K",
+                        "cpw": 334.47
+                    },
+                    {
+                        "caller": "ALIEN’S ALPHA CALLS",
+                        "timestamp": 1725478800,
+                        "marketcap": "760.8K",
+                        "cpw": 343.8
+                    },
+                    {
+                        "caller": "EZ Money’s Gems 💎",
+                        "timestamp": 1725488580,
+                        "marketcap": "594.8K",
+                        "cpw": 677.77
+                    }
+                ]
+            },
+            "ca": "0x460372866fe1448de1549cebdb0539f4075a2aa8",
+            "pair": "0x29b4f78c842cc8fe8f78d9d6cd9d8d9bbfd603df"
+        },
+        {
+            "name": "asteroid",
+            "label": "snipedDumped",
+            "t": 1725973200,
+            "o": 0.0000271833984604,
+            "h": 0.000107417439221,
+            "l": 0.0000109508206876,
+            "c": 0.0000109508206876,
+            "v": 1281902,
+            "volume": "1281901.666000213",
+            "buyVolume": "654435",
+            "sellVolume": "627466",
+            "buyers": 351,
+            "buys": 489,
+            "sellers": 370,
+            "sells": 435,
+            "liquidity": "73411.3839177",
+            "transactions": 924,
+            "traders": 575,
+            "mc": 219016.41374104918,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0.75,
+            "buyersToSellers": 0.75,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 3,
+            "score": 25.728782287822874,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "ca": "0x30b60ba2cd26dcf355745ba52dfac2fddefe8072",
+            "pair": "0xdfF4bC41D6Fe3D97C7360E8489633d10198C6885"
+        },
+        {
+            "name": "pepe",
+            "label": "snipedDumped",
+            "t": 1725120000,
+            "o": 4.99704359329e-8,
+            "h": 0.00000101310179129,
+            "l": 4.99704359329e-8,
+            "c": 0.00000100222689876,
+            "v": 6361,
+            "volume": "6361.2604841291",
+            "buyVolume": "6267",
+            "sellVolume": "102",
+            "buyers": 57,
+            "buys": 58,
+            "sellers": 5,
+            "sells": 5,
+            "liquidity": "7892.58214223",
+            "transactions": 63,
+            "traders": 57,
+            "mc": 47104.66424172,
+            "volumeToMc": 0.75,
+            "liquidityToMC": 0,
+            "volToLiq": 1,
+            "buyVolToLiq": 1,
+            "sellVolToLiq": 1,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.25,
+            "liquidityTier": 1,
+            "score": 52.260147601476,
+            "flags": [],
+            "ca": "0x0bf043b7705a65468ee74d0f5ce4919eda3317a0",
+            "pair": "0xeB86b1CD1eD395AC70A00f53605811040D2f9a6B"
+        },
+        {
+            "name": "yuge",
+            "label": "snipedDumped",
+            "t": 1725112800,
+            "o": 0.00000265458528064,
+            "h": 0.000241377998419,
+            "l": 0.00000265458528064,
+            "c": 0.00018037166422,
+            "v": 38973,
+            "volume": "38972.68981647",
+            "buyVolume": "28664",
+            "sellVolume": "10308",
+            "buyers": 95,
+            "buys": 101,
+            "sellers": 14,
+            "sells": 28,
+            "liquidity": "20881.128679",
+            "transactions": 129,
+            "traders": 95,
+            "mc": 180371.66421999998,
+            "volumeToMc": 0.5,
+            "liquidityToMC": 0,
+            "volToLiq": 0.75,
+            "buyVolToLiq": 0.5,
+            "sellVolToLiq": 0.5,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 46.743542435424345,
+            "flags": [],
+            "callData": {
+                "symbol": "YUGE",
+                "numberCalls": 3,
+                "calls": [
+                    {
+                        "caller": "INFINITYGAIN CALLS",
+                        "timestamp": 1725115980,
+                        "marketcap": "231.6K",
+                        "cpw": 120.81
+                    },
+                    {
+                        "caller": "Crafty Gambles",
+                        "timestamp": 1725120420,
+                        "marketcap": "204.8K",
+                        "cpw": 154.45
+                    },
+                    {
+                        "caller": "SOL|ETH MASTERS",
+                        "timestamp": 1725130200,
+                        "marketcap": "4.6K",
+                        "cpw": 64.98
+                    }
+                ]
+            },
+            "ca": "0x7175412d8f20f29a1fa10c5770a8337a043e6fce",
+            "pair": "0x30C81c12A125F0052D477fA60A2a8A6c1B1CD352"
+        },
+        {
+            "name": "trollicto",
+            "label": "snipedDumped",
+            "t": 1725112800,
+            "o": 0.0000503661023539,
+            "h": 0.0001165676014,
+            "l": 0.0000503661023539,
+            "c": 0.0001165676014,
+            "v": 45228,
+            "volume": "45228.38894812",
+            "buyVolume": "35772",
+            "sellVolume": "9454",
+            "buyers": 26,
+            "buys": 37,
+            "sellers": 8,
+            "sells": 13,
+            "liquidity": "76756.2229788",
+            "transactions": 50,
+            "traders": 26,
+            "mc": 116567.6014,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 1,
+            "buyVolToLiq": 1,
+            "sellVolToLiq": 1,
+            "participantEngagement": 0.25,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 3,
+            "score": 43.08118081180812,
+            "flags": [],
+            "ca": "0x32d9f7c23d2b690d3b47efdcbdc59af29f484e68",
+            "pair": "0xe0781250d68f5654f356835623a5927d824d8c22"
+        },
+        {
+            "name": "brug",
+            "label": "snipedDumped",
+            "t": 1725116400,
+            "o": 3.74154815648e-9,
+            "h": 7.84008583882e-8,
+            "l": 3.74154815648e-9,
+            "c": 7.84008583882e-8,
+            "v": 15851,
+            "volume": "15851.10241874",
+            "buyVolume": "10202",
+            "sellVolume": "5657",
+            "buyers": 109,
+            "buys": 113,
+            "sellers": 19,
+            "sells": 40,
+            "liquidity": "5798.34702156",
+            "transactions": 153,
+            "traders": 110,
+            "mc": 32982.457115331854,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0.25,
+            "buyVolToLiq": 0.25,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.25,
+            "liquidityTier": 1,
+            "score": 19.723247232472325,
+            "flags": [],
+            "callData": {
+                "symbol": "BRUG",
+                "numberCalls": 1,
+                "calls": [
+                    {
+                        "caller": "Sapphire Call’s",
+                        "timestamp": 1725119580,
+                        "marketcap": "4.4K",
+                        "cpw": 558.12
+                    }
+                ]
+            },
+            "ca": "0x04c0dc93ce5698fa8a380cd8aff38710e04d4737",
+            "pair": "0x7663860fc7bacb9ffae73457e1b774e3788e373d"
+        },
+        {
+            "name": "tiraxtur",
+            "label": "snipedDumped",
+            "t": 1725890400,
+            "o": 0.0000939725223753,
+            "h": 0.000519411983129,
+            "l": 0.0000784952406556,
+            "c": 0.000519411983129,
+            "v": 18954,
+            "volume": "18954.456483627",
+            "buyVolume": "12248",
+            "sellVolume": "6706",
+            "buyers": 24,
+            "buys": 26,
+            "sellers": 10,
+            "sells": 12,
+            "liquidity": "7815.55455427",
+            "transactions": 38,
+            "traders": 24,
+            "mc": 519411.983129,
+            "volumeToMc": 1,
+            "liquidityToMC": 0.5,
+            "volToLiq": 0.5,
+            "buyVolToLiq": 0.5,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0.25,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 1,
+            "score": 41.44833948339483,
+            "flags": [],
+            "ca": "0xf70dae150b888415ea0165bd3a584607e18c0a56",
+            "pair": "0x1bf9E93dC0aF9844D99d0a0Dc85B6A4a230053f1"
+        },
+        {
+            "name": "koto",
+            "label": "snipedDumped",
+            "t": 1725890400,
+            "o": 7.30771390817e-9,
+            "h": 3.47624356565e-7,
+            "l": 7.30771390817e-9,
+            "c": 9.35932578023e-8,
+            "v": 144794,
+            "volume": "144793.8244962263",
+            "buyVolume": "75488",
+            "sellVolume": "69313",
+            "buyers": 186,
+            "buys": 266,
+            "sellers": 84,
+            "sells": 175,
+            "liquidity": "8364.81184972",
+            "transactions": 441,
+            "traders": 194,
+            "mc": 39373.74762484959,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.5,
+            "buyersToSellers": 0.25,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0.25,
+            "liquidityTier": 1,
+            "score": 23.431734317343178,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "ca": "0x12f6deca0c82ac0b8f0556d78f98220b8c3059d1",
+            "pair": "0x6addf6b2f23d779c363b588baa1f8daf07d76b0f"
+        },
+        {
+            "name": "equ",
+            "label": "snipedDumped",
+            "t": 1725897600,
+            "o": 0.0000305957148867,
+            "h": 0.00139288915179,
+            "l": 0.0000305957148867,
+            "c": 0.000314276386003,
+            "v": 120808,
+            "volume": "120807.695907859",
+            "buyVolume": "62944",
+            "sellVolume": "57854",
+            "buyers": 170,
+            "buys": 284,
+            "sellers": 112,
+            "sells": 236,
+            "liquidity": "7588.66309975",
+            "transactions": 520,
+            "traders": 181,
+            "mc": 31427.6386003,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.5,
+            "buysToSells": 0.5,
+            "buyersToSellers": 0.5,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 1,
+            "score": 24.74169741697417,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "EQU",
+                "numberCalls": 3,
+                "calls": [
+                    {
+                        "caller": "Sapphire Call’s",
+                        "timestamp": 1725903360,
+                        "marketcap": "33.4K",
+                        "cpw": 854.55
+                    },
+                    {
+                        "caller": "Thor's Hammer Gems (VERIFY ME ON TWITTER)",
+                        "timestamp": 1726232340,
+                        "marketcap": "197.1K",
+                        "cpw": 105.73
+                    },
+                    {
+                        "caller": "𝐁𝐫𝐨𝐨𝐤 𝐂𝐚𝐥𝐥𝐬 💀 🌂🎻",
+                        "timestamp": 1726232400,
+                        "marketcap": "202.3K",
+                        "cpw": 85.32
+                    }
+                ]
+            },
+            "ca": "0x85114874bb2ab376162c32fe8a3bc280493a90e5",
+            "pair": "0x589e4ca2a3ecb39aaccc9e8629081583585821a1"
+        },
+        {
+            "name": "wigl",
+            "label": "snipedDumped",
+            "t": 1725984000,
+            "o": 0.109988133003,
+            "h": 0.280126512285,
+            "l": 0.109988133003,
+            "c": 0.142967588875,
+            "v": 775072,
+            "volume": "775072.34041178",
+            "buyVolume": "403549",
+            "sellVolume": "371518",
+            "buyers": 65,
+            "buys": 118,
+            "sellers": 53,
+            "sells": 76,
+            "liquidity": "252009.875362",
+            "transactions": 194,
+            "traders": 65,
+            "mc": 10579597.144754745,
+            "volumeToMc": 1,
+            "liquidityToMC": 0.25,
+            "volToLiq": 0.25,
+            "buyVolToLiq": 0.5,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.5,
+            "buysToSells": 0.25,
+            "buyersToSellers": 0.75,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 4,
+            "score": 45.58118081180811,
+            "flags": [],
+            "ca": "0xf8206a19fca5999425358de4e4cdefc7f5c5d4ca",
+            "pair": "0x101a1a8e13b49933608ac2959505fa1d344eb57e"
+        },
+        {
+            "name": "baby",
+            "label": "snipedDumped",
+            "t": 1725393600,
+            "o": 0.000184470059503,
+            "h": 56.8313727448,
+            "l": 0.000184470059503,
+            "c": 1.9624821771,
+            "v": 280564,
+            "volume": "280563.65528265",
+            "buyVolume": "149851",
+            "sellVolume": "130710",
+            "buyers": 154,
+            "buys": 174,
+            "sellers": 41,
+            "sells": 50,
+            "liquidity": "19314.2554925",
+            "transactions": 224,
+            "traders": 156,
+            "mc": 1955201.368222959,
+            "volumeToMc": 0.75,
+            "liquidityToMC": 0.75,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 0,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 27.50922509225092,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "ca": "0x19742c5eed3b6e984545e796e8e3708f9cc6764d",
+            "pair": "0x6042452acdeb655200f1f87620e5cd87f3709aa8"
+        },
+        {
+            "name": "boltai",
+            "label": "snipedDumped",
+            "t": 1726066800,
+            "o": 0.0000352949143557,
+            "h": 0.00397592960407,
+            "l": 0.0000352949143557,
+            "c": 0.00277402976072,
+            "v": 26309,
+            "volume": "26308.69017133",
+            "buyVolume": "22257",
+            "sellVolume": "4046",
+            "buyers": 47,
+            "buys": 63,
+            "sellers": 1,
+            "sells": 2,
+            "liquidity": "20548.0592413",
+            "transactions": 65,
+            "traders": 48,
+            "mc": 277402.976072,
+            "volumeToMc": 1,
+            "liquidityToMC": 0,
+            "volToLiq": 0.75,
+            "buyVolToLiq": 0.75,
+            "sellVolToLiq": 1,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 2,
+            "score": 59.372693726937264,
+            "flags": [],
+            "callData": {
+                "symbol": "BOLTAI",
+                "numberCalls": 1,
+                "calls": [
+                    {
+                        "caller": "PEYO'S DEGEN HUB🔥",
+                        "timestamp": 1726070880,
+                        "marketcap": "152.7K"
+                    }
+                ]
+            },
+            "ca": "0xc8420ff1ff3474f262a0737548c51ff41335e3a3",
+            "pair": "0x42189bCCac7e6327A8279b02B8fFA82b55b2e1f8"
+        },
+        {
+            "name": "wit",
+            "label": "snipedDumped",
+            "t": 1726326000,
+            "o": 1.02760173945,
+            "h": 6.3828237233,
+            "l": 1.02760173945,
+            "c": 1.30996521988,
+            "v": 120643,
+            "volume": "120643.167136964",
+            "buyVolume": "61661",
+            "sellVolume": "58985",
+            "buyers": 49,
+            "buys": 68,
+            "sellers": 41,
+            "sells": 56,
+            "liquidity": "22152.6137576",
+            "transactions": 124,
+            "traders": 49,
+            "mc": 39298.9565964,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.5,
+            "buysToSells": 0.5,
+            "buyersToSellers": 0.75,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 2,
+            "score": 27.343173431734314,
+            "flags": [],
+            "ca": "0x0812eebcd567a26b53b34900dc412fe7fc8e557c",
+            "pair": "0xdd13206446e27c53f9d99bc13fc137048a33a8bf"
+        },
+        {
+            "name": "froge",
+            "label": "snipedDumped",
+            "t": 1726333200,
+            "o": 6.22314804372e-9,
+            "h": 0.00000175364385014,
+            "l": 6.22314804372e-9,
+            "c": 1.10083563076e-7,
+            "v": 932422,
+            "volume": "932421.91432944054",
+            "buyVolume": "469967",
+            "sellVolume": "462440",
+            "buyers": 637,
+            "buys": 970,
+            "sellers": 379,
+            "sells": 649,
+            "liquidity": "9710.64021889",
+            "transactions": 1619,
+            "traders": 664,
+            "mc": 46311.05415044244,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0.25,
+            "buysToSells": 0.5,
+            "buyersToSellers": 0.5,
+            "pctCloseFromHigh": 0,
+            "pctCloseFromOpen": 0.25,
+            "liquidityTier": 1,
+            "score": 14.446494464944653,
+            "flags": [
+                "Extremely high volume to liquidity ratio"
+            ],
+            "callData": {
+                "symbol": "FROGE",
+                "numberCalls": 7,
+                "calls": [
+                    {
+                        "caller": "Maestros Gamble Degen Apes",
+                        "timestamp": 1726334400,
+                        "marketcap": "314.1K",
+                        "cpw": 302.41
+                    },
+                    {
+                        "caller": "Knuckles Prosper Calls",
+                        "timestamp": 1726334460,
+                        "marketcap": "226.1K",
+                        "cpw": 588.15
+                    },
+                    {
+                        "caller": "Neo Calls",
+                        "timestamp": 1726334460,
+                        "marketcap": "226.1K",
+                        "cpw": 588.15
+                    },
+                    {
+                        "caller": "Micha Calls / 100% Organic",
+                        "timestamp": 1726335300,
+                        "marketcap": "492.4K"
+                    },
+                    {
+                        "caller": "Shyroshi Gambles",
+                        "timestamp": 1726335300,
+                        "marketcap": "492.4K"
+                    },
+                    {
+                        "caller": "Bob’s Gems 💎",
+                        "timestamp": 1726335480,
+                        "marketcap": "416.5K"
+                    },
+                    {
+                        "caller": "Charles Gem Calls",
+                        "timestamp": 1726335900,
+                        "marketcap": "304.6K",
+                        "cpw": 119.41
+                    }
+                ]
+            },
+            "ca": "0xd59b2f45a1c1bf475201893fb1a5d36156de5764",
+            "pair": "0x9b0f2dc645bb8fbcd5873294785ef433cbac7842"
+        }
+    ],
+    "bad": [],
+    "rug": [
+        {
+            "name": "fuxi",
+            "label": "rug",
+            "t": 1725998400,
+            "o": 3.41116554844e-7,
+            "h": 46341979346600000000,
+            "l": 3.41116554844e-7,
+            "c": 46341979346600000000,
+            "v": 67664,
+            "volume": "67664.0659293466",
+            "buyVolume": "46121",
+            "sellVolume": "21544",
+            "buyers": 132,
+            "buys": 137,
+            "sellers": 13,
+            "sells": 28,
+            "liquidity": "46.3419793466",
+            "transactions": 165,
+            "traders": 132,
+            "mc": 3.604376171041785e+29,
+            "volumeToMc": 1,
+            "liquidityToMC": 1,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 1,
+            "score": 44.05904059040589,
+            "flags": [
+                "Extremely high volume to liquidity ratio",
+                "High volume with extreme buy pressure",
+                "Very low liquidity"
+            ],
+            "ca": "0x8fe36938aec172e757ade84a938683a3c9eddb40",
+            "pair": "0x5e0a95908a04fadf84de4aa2d16952db53e33c0e"
+        },
+        {
+            "name": "bbull",
+            "label": "rug",
+            "t": 1725213600,
+            "o": 0.00000226555714716,
+            "h": 0.0000111443765584,
+            "l": 0.00000226555714716,
+            "c": 0.00000517727964145,
+            "v": 70619,
+            "volume": "70618.81742906",
+            "buyVolume": "39604",
+            "sellVolume": "31019",
+            "buyers": 55,
+            "buys": 60,
+            "sellers": 17,
+            "sells": 18,
+            "liquidity": "25539.333909",
+            "transactions": 78,
+            "traders": 67,
+            "mc": 51772.7964145,
+            "volumeToMc": 0,
+            "liquidityToMC": 0,
+            "volToLiq": 0.25,
+            "buyVolToLiq": 0.5,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 0,
+            "liquidityTier": 2,
+            "score": 19.08671586715867,
+            "flags": [],
+            "ca": "0xba55805e62d697a79615fab343d18e11d1357d5b",
+            "pair": "0xba55805e62d697a79615fab343d18e11d1357d5b"
+        },
+        {
+            "name": "slh",
+            "label": "rug",
+            "t": 1725843600,
+            "o": 0.00466686794142,
+            "h": 0.66121112141,
+            "l": 0.00466686794142,
+            "c": 0.291382131726,
+            "v": 69628,
+            "volume": "69627.668057129",
+            "buyVolume": "43001",
+            "sellVolume": "26628",
+            "buyers": 79,
+            "buys": 82,
+            "sellers": 16,
+            "sells": 17,
+            "liquidity": "2.77223307776e-14",
+            "transactions": 99,
+            "traders": 79,
+            "mc": 155889.1490912783,
+            "volumeToMc": 0,
+            "liquidityToMC": 1,
+            "volToLiq": 0,
+            "buyVolToLiq": 0,
+            "sellVolToLiq": 0,
+            "participantEngagement": 0,
+            "buysToSells": 0,
+            "buyersToSellers": 0,
+            "pctCloseFromHigh": 1,
+            "pctCloseFromOpen": 1,
+            "liquidityTier": 1,
+            "score": 33.542435424354245,
+            "flags": [
+                "Extremely high volume to liquidity ratio",
+                "High volume with extreme buy pressure",
+                "Very low liquidity"
+            ],
+            "ca": "0xcaa046e0571e6911ab98622a26f5cec9f6a4e514",
+            "pair": "0xef8e35ea164119b17515108cc9a327079b09391e"
+        }
+    ]
+}

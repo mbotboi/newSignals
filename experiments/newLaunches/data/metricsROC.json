@@ -1,0 +1,42 @@
+{
+    "volumeToMc": {
+        "threshold": 0.22013131070379582,
+        "auc": -0.5357142857142855
+    },
+    "liquidityToMC": {
+        "threshold": 0.01861197513402291,
+        "auc": -0.4755639097744361
+    },
+    "volToLiq": {
+        "threshold": 2.5085684231862624,
+        "auc": -0.5018796992481204
+    },
+    "buyVolToLiq": {
+        "threshold": 1.6449101924534801,
+        "auc": -0.5131578947368421
+    },
+    "sellVolToLiq": {
+        "threshold": 0.5023577465253162,
+        "auc": -0.4943609022556391
+    },
+    "participantEngagement": {
+        "threshold": 0.4055525313010343,
+        "auc": -0.3796992481203009
+    },
+    "buysToSells": {
+        "threshold": 1.5261382799325465,
+        "auc": -0.430451127819549
+    },
+    "buyersToSellers": {
+        "threshold": 1.8097560975609757,
+        "auc": -0.5300751879699247
+    },
+    "pctCloseFromHigh": {
+        "threshold": -0.4509352438293148,
+        "auc": -0.5902255639097743
+    },
+    "pctCloseFromOpen": {
+        "threshold": 21.416314949213476,
+        "auc": -0.642857142857143
+    }
+}
