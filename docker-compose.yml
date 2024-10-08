@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  mongodb:
+    image: mongo:4.2.24
+    container_name: mongo-new-signals
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-new-signals:/data/db
+
+  redis:
+    image: redis:latest
+    container_name: redis-new-signals
+    ports:
+      - "6379:6379"
+    volumes: 
+      - redis-new-signals:/data
+    
+volumes:
+  mongo-new-signals:
+  redis-new-signals:
