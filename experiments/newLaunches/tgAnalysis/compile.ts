@@ -1,5 +1,5 @@
 import callsAndScores from "../tgData/callsAndScores.json";
-import filteredSet from "../tgData/filteredSet.json";
+import { TokenData } from "../types";
 import fs from "fs";
 // Define types
 type Call = {
@@ -69,6 +69,24 @@ function getTokensWithFirstHourCalls(
   return filteredData;
 }
 
+function straightenArray(callsAndScores: CategoryData) {
+  type TokenDataParse = Record<string, TokenData[]>;
+
+  const straightenedData: TokenData[] = [];
+
+  for (const [category, tokens] of Object.entries(callsAndScores)) {
+    const obj: TokenDataParse = {};
+    console.log(tokens);
+    // Object.keys(tokens).map((k) => {
+    //   console.log(k);
+    //   if (k == "score" || k == "flags" || k == "ca" || k == "pair") {
+    //     return;
+    //   }
+    //   // obj[k] = tokens[k];
+    // });
+  }
+}
+
 function removeNoCalls() {
   const filteredData: CategoryData = {};
   for (const [category, tokens] of Object.entries(callsAndScores)) {
@@ -82,9 +100,14 @@ function removeNoCalls() {
     JSON.stringify(filteredData)
   );
 }
-removeNoCalls();
+
+function reformatSet() {
+  const allSetWithOnlyFirstHourCalls =
+    getTokensWithFirstHourCalls(callsAndScores);
+  const straightened = straightenArray(allSetWithOnlyFirstHourCalls);
+}
+reformatSet();
 // Usage
-// const result = getTokensWithFirstHourCalls(callsAndScores);
 
 // fs.writeFileSync(
 //   "./services/newLaunches/tgData/filteredSet.json",

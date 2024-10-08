@@ -1,4 +1,9 @@
-import { CoinData, metrics, LabelCategory } from "../types";
+import {
+  DataToScore,
+  metrics,
+  LabelCategory,
+  LabelCategorySentiment,
+} from "../types";
 
 interface ROCPoint {
   threshold: number;
@@ -7,41 +12,40 @@ interface ROCPoint {
 }
 
 function calculateROCCurve(
-  coins: CoinData[],
-  metricKey: keyof CoinData
+  coins: DataToScore[],
+  metricKey: keyof DataToScore
 ): ROCPoint[] {
   const allValues = coins
-    .map((coin) => Number(coin[metricKey]))
+    .map((token) => Number(token[metricKey]))
     .sort((a, b) => a - b);
   const rocPoints: ROCPoint[] = [];
 
   // Define positive and negative classes
-  const positiveClasses: LabelCategory[] = ["okay", "decent", "good", "great"];
-  const negativeClasses: LabelCategory[] = ["snipedDumped", "bad", "rug"];
+  const positiveClasses: LabelCategory[] = LabelCategorySentiment.positive;
+  const negativeClasses: LabelCategory[] = LabelCategorySentiment.negative;
 
   for (const threshold of allValues) {
     const truePositives = coins.filter(
-      (coin) =>
-        positiveClasses.includes(coin.label as LabelCategory) &&
-        Number(coin[metricKey]) >= threshold
+      (token) =>
+        positiveClasses.includes(token.label as LabelCategory) &&
+        Number(token[metricKey]) >= threshold
     ).length;
     const falsePositives = coins.filter(
-      (coin) =>
-        negativeClasses.includes(coin.label as LabelCategory) &&
-        Number(coin[metricKey]) >= threshold
+      (token) =>
+        negativeClasses.includes(token.label as LabelCategory) &&
+        Number(token[metricKey]) >= threshold
     ).length;
-    const totalPositives = coins.filter((coin) =>
-      positiveClasses.includes(coin.label as LabelCategory)
+    const totalPositives = coins.filter((token) =>
+      positiveClasses.includes(token.label as LabelCategory)
     ).length;
-    const totalNegatives = coins.filter((coin) =>
-      negativeClasses.includes(coin.label as LabelCategory)
+    const totalNegatives = coins.filter((token) =>
+      negativeClasses.includes(token.label as LabelCategory)
     ).length;
 
     const tpr = truePositives / totalPositives;
     const fpr = falsePositives / totalNegatives;
     rocPoints.push({ threshold, tpr, fpr });
   }
-
   return rocPoints;
 }
 
@@ -56,17 +60,16 @@ function findOptimalThreshold(rocPoints: ROCPoint[]): number {
       optimalThreshold = point.threshold;
     }
   }
-
   return optimalThreshold;
 }
 
 export function getOptimalThresholds(
-  coins: CoinData[]
+  coins: DataToScore[]
 ): Record<string, number> {
   const thresholds: Record<string, number> = {};
 
   for (const metric of metrics) {
-    const rocPoints = calculateROCCurve(coins, metric as keyof CoinData);
+    const rocPoints = calculateROCCurve(coins, metric as keyof DataToScore);
     thresholds[metric] = findOptimalThreshold(rocPoints);
   }
 
@@ -85,16 +88,15 @@ function calculateAUC(rocPoints: ROCPoint[]): number {
 }
 
 export function evaluateMetrics(
-  coins: CoinData[]
+  coins: DataToScore[]
 ): Record<string, { threshold: number; auc: number }> {
   const thresholds = getOptimalThresholds(coins);
   const results: Record<string, { threshold: number; auc: number }> = {};
 
   for (const metric of metrics) {
-    const rocPoints = calculateROCCurve(coins, metric as keyof CoinData);
+    const rocPoints = calculateROCCurve(coins, metric as keyof DataToScore);
     const auc = calculateAUC(rocPoints);
     results[metric] = { threshold: thresholds[metric], auc };
   }
-
   return results;
 }

@@ -1,4 +1,4 @@
-export interface CoinData {
+export interface TokenData {
   name: string;
   label: string;
   mc: number;
@@ -20,12 +20,22 @@ export interface CoinData {
   buyersToSellers: number;
   pctCloseFromHigh: number;
   pctCloseFromOpen: number;
+  callData?: CallData;
 }
 
-export interface ScoredCoinData extends CoinData {
+export interface TokenDataWithOHLCT extends TokenData {
+  o: number;
+  h: number;
+  l: number;
+  c: number;
+  t: number;
+}
+
+export interface ScoredTokenData extends TokenData {
   score: number;
   flags: string[];
   liquidityTier: number;
+  weightedAvgCPW: number;
 }
 
 export interface MetricCorrelation {
@@ -37,6 +47,19 @@ export interface MetricCorrelation {
 export interface MetricPerformance {
   threshold: number;
   auc: number;
+}
+
+export interface Call {
+  caller: string;
+  timestamp: number;
+  marketcap: string;
+  cpw?: number; // Make CPW optional
+}
+
+export interface CallData {
+  symbol: string;
+  numberCalls: number;
+  calls: Call[];
 }
 
 export type LabelCategory =
@@ -55,7 +78,7 @@ export const labelCategoryArray = [
   "great",
   "snipedDumped",
   "bad",
-  "rug"
+  "rug",
 ];
 
 export const metrics = [
