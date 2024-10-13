@@ -10,6 +10,7 @@ launch.json
 wrapper.txt
 modules/chatgpt/data
 /data/
+/experiments/
 cronjob
 
 # Logs

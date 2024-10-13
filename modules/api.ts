@@ -5,6 +5,6 @@ export const DEFINED_URL = "https://graph.defined.fi/graphql";
 export const DEFINED_HEADERS = {
   headers: {
     "Content-Type": "application/json",
-    Authorization: "151824a9003347dc62785356c8639af8ba4bf4fe",
+    Authorization: "974145e9bcbd7a3c64ae1065a4c875b6375e504e",
   },
 };

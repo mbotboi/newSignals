@@ -1,5 +1,12 @@
 import { dbConnection } from "./connection";
 import { ITokenCall, CallAnalyserDB } from "./crud/callAnalyserDB";
 import { tokenMetrics } from "./crud/tokenMetrics";
+import { pairDataMetrics } from "./crud/pairData";
 
-export { dbConnection, ITokenCall, CallAnalyserDB, tokenMetrics };
+export {
+  dbConnection,
+  ITokenCall,
+  CallAnalyserDB,
+  tokenMetrics,
+  pairDataMetrics,
+};

@@ -35,6 +35,18 @@ export class TgClient {
     }
   }
 
+  async disconnect() {
+    try {
+      if (this.connectionState === "connected") {
+        await this.client.disconnect();
+        this.connectionState = "disconnected";
+        console.info("Disconnected from Telegram");
+      }
+    } catch (error) {
+      console.error("Error disconnecting from Telegram", error);
+    }
+  }
+
   private handleError(error: Error) {
     console.error("Telegram client error", error);
     this.connectionState = "disconnected";
