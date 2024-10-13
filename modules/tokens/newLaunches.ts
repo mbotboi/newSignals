@@ -1,27 +1,30 @@
 import axios from "axios";
 import { DEFINED_HEADERS, DEFINED_URL } from "../api";
 import { CHAIN_IDS } from "../constants";
-
+import fs from "fs";
 /**
- * @param age -> age in minutes of the token
  * @param minLiquidity -> minimum liquidity for token
  * @param chain -> chain name
+ * @param hoursAgo -> token launch in a period of 1 hour, X hours ago
+ * eg: if 0, last hour, if 1, between 1 to 2 hours ago etc
  * @returns
  */
-export async function getTokensLaunchedPrevHour(
+export async function getTokensLaunchedXHoursAgo(
   minLiquidity: number,
-  chain: string
+  chain: string,
+  hoursAgo: number
 ) {
+  const oneHour = 3600;
   const now = Math.floor(Date.now() / 1000);
-  const currentHour = Math.floor(now / 3600) * 3600;
-  const previousHourStart = currentHour - 3600;
-  const twoHoursAgo = currentHour - 7200;
+  //to is always X hours before now. Eg: if 0, to = now, if 1, to is now - 1hr
+  const to = now - oneHour * hoursAgo;
+  const from = to - oneHour;
 
   const query = `{
   filterPairs(
     filters: {
       network: [${CHAIN_IDS[chain]}]
-      createdAt: { gte: ${twoHoursAgo}, lt: ${previousHourStart} }
+      createdAt: { gte: ${from}, lt: ${to} }
       liquidity: {gt: ${minLiquidity}}
     }
     rankings: { attribute: volumeUSD24, direction: DESC }
@@ -71,6 +74,7 @@ export async function getTokensLaunchedPrevHour(
       { query: query },
       DEFINED_HEADERS
     );
+    // fs.writeFileSync("./pairs.json", JSON.stringify(resp.data));
     const data = resp.data.data.filterPairs.results;
     return data;
   } catch (e) {
