@@ -1,4 +1,4 @@
-export interface AggregatedTokenData extends ChartData {
+export interface AggregatedTokenData extends CandleData {
   name: string;
   calculatedMC: number;
   actualMC: number;
@@ -7,11 +7,11 @@ export interface AggregatedTokenData extends ChartData {
   volToLiq: number;
   buyVolToLiq: number;
   sellVolToLiq: number;
-  participantEngagement: number;
   buysToSells: number;
-  buyersToSellers: number;
   pctCloseFromHigh: number;
   pctCloseFromOpen: number;
+  // participantEngagement: number;
+  // buyersToSellers: number;
   [key: string]: any;
 }
 
@@ -112,11 +112,11 @@ export const metrics = [
   "volToLiq",
   "buyVolToLiq",
   "sellVolToLiq",
-  "participantEngagement",
   "buysToSells",
-  "buyersToSellers",
   "pctCloseFromHigh",
   "pctCloseFromOpen",
+  // "participantEngagement",
+  // "buyersToSellers",
 ];
 
 export const LiquidityTierThresholds = [10000, 50000, 100000] as const;
@@ -165,7 +165,7 @@ export interface PairData {
   [key: string]: any;
 }
 
-export interface ChartData {
+export interface CandleData {
   t: number;
   o: number;
   h: number;
@@ -175,11 +175,51 @@ export interface ChartData {
   volume: string;
   buyVolume: string;
   sellVolume: string;
-  buyers: number;
   buys: number;
-  sellers: number;
   sells: number;
   liquidity: string;
   transactions: number;
-  traders: number;
+  // buyers: number;
+  // sellers: number;
+  // traders: number;
+}
+
+export interface ChartData {
+  t: number[];
+  o: number[];
+  h: number[];
+  l: number[];
+  c: number[];
+  v: number[];
+  volume: string[];
+  buyVolume: string[];
+  sellVolume: string[];
+  buyers: number[];
+  buys: number[];
+  sellers: number[];
+  sells: number[];
+  liquidity: string[];
+  transactions: number[];
+  traders: number[];
+}
+
+export const CHART_RESOLUTIONS = {
+  1: 1,
+  5: 5,
+  15: 15,
+  30: 30,
+  60: 60,
+  240: 240,
+  720: 720,
+  "1D": "1D",
+  "7D": "7D",
+} as const;
+
+export type ChartResolution = keyof typeof CHART_RESOLUTIONS;
+
+// CACHED DATA STRUCTURE
+export interface CachedPairData {
+  pairData: PairData;
+  firstCandleTS: number;
+  chain: string;
 }

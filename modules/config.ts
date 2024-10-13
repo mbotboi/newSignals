@@ -1,4 +1,5 @@
 import * as dotenv from "dotenv";
+import { ChartResolution } from "../services/newLaunches/types";
 
 dotenv.config();
 
@@ -42,6 +43,8 @@ export const config = {
   //CONNECTION URLS
   MONGO_LOCALHOST: getEnvVariable("LOCAL_MONGO"),
   MONGO_DOCKER_NETWORK: getEnvVariable("DOCKER_MONGO"),
+  REDIS_LOCALHOST: getEnvVariable("REDIS_LOCALHOST"),
+  REDIS_DOCKER_NETWORK: getEnvVariable("REDIS_DOCKER_NETWORK"),
 
   //OTHER_KEYS
   ANTHROPIC_API: getEnvVariable("ANTHROPIC_API"),
@@ -69,6 +72,15 @@ export const config = {
   FIRE_AT_START: getEnvVariableAsBool("FIRE_AT_START"),
   TEST: getEnvVariableAsBool("TEST"),
 
-  //SCORING PARAMS
+  //RUN TIME CONFIGS FOR SCORING
   CPW_WEIGHT: getEnvVariableAsNumber("CPW_WEIGHT"),
+  CHAINS: getEnvVariableAsArray("CHAINS"),
+  GATHERING_INTERVAL_IN_HOURS: getEnvVariableAsNumber(
+    "GATHERING_INTERVAL_IN_HOURS"
+  ),
+  CHART_RESOLUTION: getEnvVariableAsNumber(
+    "CHART_RESOLUTION"
+  ) as ChartResolution,
+  LAUNCHED_HOURS_AGO: getEnvVariableAsNumber("LAUNCHED_HOURS_AGO"),
+  PROCESS_TOKENS_INTERVAL: getEnvVariableAsNumber("PROCESS_TOKENS_INTERVAL"),
 };
