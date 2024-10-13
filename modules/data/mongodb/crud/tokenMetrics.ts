@@ -1,6 +1,5 @@
 import {
   LabelCategory,
-  Flag,
   FlagOptions,
   LabelCategoryArray,
   ScoredTokenData,
