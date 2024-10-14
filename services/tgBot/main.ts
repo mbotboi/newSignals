@@ -1,6 +1,11 @@
 import TelegramBot from "node-telegram-bot-api";
 import { config } from "../../modules/config";
-import { updateLabel, getToken } from "../../modules/tg/bot/commands";
+import {
+  updateLabel,
+  getToken,
+  getTokenCount,
+  getUnlabeledTokens,
+} from "../../modules/tg/bot/commands";
 import { checkArgs } from "../../modules/tg/bot/helpers";
 
 const TG_BOT_ID = config.TG_BOT_ID;
@@ -63,6 +68,35 @@ async function tgBot(): Promise<TelegramBot> {
       }
     } else {
       await bot.sendMessage(msg.chat.id, "Please provide a token address");
+    }
+  });
+
+  bot.onText(/\/tokenCount/, async (msg) => {
+    try {
+      const result = await getTokenCount();
+      await bot.sendMessage(msg.chat.id, result, {
+        parse_mode: "MarkdownV2",
+        disable_web_page_preview: true,
+      });
+    } catch (e) {
+      await bot.sendMessage(
+        msg.chat.id,
+        "There was an error fetching the token count. Please try again."
+      );
+    }
+  });
+  bot.onText(/\/unlabeledTokens/, async (msg) => {
+    try {
+      const result = await getUnlabeledTokens();
+      await bot.sendMessage(msg.chat.id, result, {
+        parse_mode: "MarkdownV2",
+        disable_web_page_preview: true,
+      });
+    } catch (e) {
+      await bot.sendMessage(
+        msg.chat.id,
+        "There was an error fetching unlabeled tokens. Please try again."
+      );
     }
   });
 

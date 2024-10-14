@@ -83,3 +83,28 @@ export function splitMessage(message: string) {
   }
   return messages;
 }
+
+export function getTokenLinks(address: string, chain: string) {
+  let definedChain = "";
+  if (chain == "ethereum") {
+    definedChain = "eth";
+  } else if (chain == "solana") {
+    definedChain = "sol";
+  } else if (chain == "base") {
+    definedChain = "base";
+  }
+  const ds = createHyperlink(
+    "DEXS",
+    `https://dexscreener.com/${chain}/${address}`
+  );
+  const defined = createHyperlink(
+    "DEF",
+    `https://www.defined.fi/${definedChain}/${address}`
+  );
+  return { ds, defined };
+}
+
+// Add this helper function to format the percentage
+export function formatPercentage(value: number): string {
+  return (value * 100).toFixed(2) + "%";
+}
