@@ -10,6 +10,7 @@ import mongoose, { Schema, Model, Document } from "mongoose";
 // Define the interface for the document
 const TokenSchema: Schema = new Schema({
   name: { type: String, required: true },
+  chain: { type: String, required: true },
   pair: { type: String, required: true, unique: true },
   address: { type: String, required: true, unique: true },
   label: {
@@ -26,22 +27,18 @@ const TokenSchema: Schema = new Schema({
   volume: { type: String, required: true },
   buyVolume: { type: String, required: true },
   sellVolume: { type: String, required: true },
-  buyers: { type: Number, required: true },
   buys: { type: Number, required: true },
-  sellers: { type: Number, required: true },
   sells: { type: Number, required: true },
   liquidity: { type: String, required: true },
   transactions: { type: Number, required: true },
-  traders: { type: Number, required: true },
-  mc: { type: Number, required: true },
+  calculatedMC: { type: Number, required: true }, // Add this line
+  actualMC: { type: Number, required: true }, // Add this line
   volumeToMc: { type: Number, required: true },
   liquidityToMC: { type: Number, required: true },
   volToLiq: { type: Number, required: true },
   buyVolToLiq: { type: Number, required: true },
   sellVolToLiq: { type: Number, required: true },
-  participantEngagement: { type: Number, required: true },
   buysToSells: { type: Number, required: true },
-  buyersToSellers: { type: Number, required: true },
   pctCloseFromHigh: { type: Number, required: true },
   pctCloseFromOpen: { type: Number, required: true },
   liquidityTier: { type: Number, required: true },
@@ -60,6 +57,11 @@ const TokenSchema: Schema = new Schema({
       },
     ],
   },
+  // buyers: { type: Number, required: true },
+  // sellers: { type: Number, required: true },
+  // traders: { type: Number, required: true },
+  // participantEngagement: { type: Number, required: true },
+  // buyersToSellers: { type: Number, required: true },
 });
 
 const Token: Model<ScoredTokenData> = mongoose.model<ScoredTokenData>(
@@ -218,4 +220,4 @@ const tokenMetrics = {
   },
 };
 
-export { tokenMetrics };
+export { tokenMetrics, Token };

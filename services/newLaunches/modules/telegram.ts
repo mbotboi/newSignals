@@ -2,9 +2,10 @@ import { searchMessage } from "../../../modules/tg/api/messages";
 import { getChannelName } from "../../../modules/tg/api/channels";
 import { CallData, Call, DataToScore, ScoredTokenData, Flag } from "../types";
 import {
-  createHyperlink,
+  formatPercentage,
   escapeMarkdown,
   formatNumber,
+  getTokenLinks,
 } from "../../../modules/tg/bot/helpers";
 
 import { config } from "../../../modules/config";
@@ -136,6 +137,7 @@ export async function sendTelegramAlert(
     const bot = initializeBot();
     await bot.sendMessage(config.DEV_CHAT_ID, message, {
       parse_mode: "MarkdownV2",
+      disable_web_page_preview: true,
     });
     console.log(`Sent Telegram alert for token ${scoredToken.address}`);
   } catch (error) {
@@ -148,24 +150,52 @@ export async function sendTelegramAlert(
 }
 
 function formatAlertMessage(token: ScoredTokenData): string {
-  const tokenLink = createHyperlink(
-    token.name,
-    `https://example.com/token/${token.address}`
-  );
+  const { ds, defined } = getTokenLinks(token.address, token.chain);
+
+  const header = `🚨 New Token Alert 🚨\n${escapeMarkdown(
+    token.name
+  )} on ${token.chain.toLocaleUpperCase()}\\| ${ds} \\| ${defined}`;
   const scoreEmoji = getScoreEmoji(token.score || 0);
 
-  let message = `🚨 New Token Alert 🚨\n\n`;
-  message += `Token: ${tokenLink}\n`;
-  message += `Score: ${scoreEmoji} ${token.score}/100\n\n`;
-
+  let message = `\`${token.address}\`\nScore: ${scoreEmoji} ${token.score}/100\n\n`;
   message += `📊 Key Metrics:\n`;
   message += `• Price: $${formatNumber(token.c)}\n`;
-  message += `• Market Cap: $${formatNumber(token.actualMC)}\n`;
-  message += `• Liquidity: $${formatNumber(parseFloat(token.liquidity))}\n`;
+  message += `• Market Cap: $${formatNumber(token.calculatedMC)}\n`;
+  message += `• Liquidity|Liq Tier: $${formatNumber(
+    parseFloat(token.liquidity)
+  )} | ${token.liquidityTier}\n`;
   message += `• Volume: $${formatNumber(parseFloat(token.volume))}\n`;
   message += `• Volume/MC: ${formatNumber(token.volumeToMc)}\n`;
   message += `• Buy/Sell Ratio: ${formatNumber(token.buysToSells)}\n`;
+  message += `• % From High: ${formatPercentage(token.pctCloseFromHigh)}\n`;
+  message += `• % From Open: ${formatPercentage(token.pctCloseFromOpen)}\n`;
 
+  // message += `• Vol/Liq | BuyVol/Liq | SellVol/Liq
+  //  ${formatNumber(token.volToLiq)} | ${formatNumber(
+  //   token.buyVolToLiq
+  // )} | ${formatNumber(token.sellVolToLiq)}\n`;
+
+  //format the table cleanly
+  const headers = ["Vol/Liq", "BuyVol/Liq", "SellVol/Liq"];
+  const values = [
+    formatNumber(token.volToLiq),
+    formatNumber(token.buyVolToLiq),
+    formatNumber(token.sellVolToLiq),
+  ];
+
+  const maxLength = Math.max(
+    ...headers.map((h) => h.length),
+    ...values.map((v) => v.length)
+  );
+
+  const formattedHeaders = headers
+    .map((h) => h.padEnd(maxLength, " "))
+    .join(" | ");
+  const formattedValues = values
+    .map((v) => v.padEnd(maxLength, " "))
+    .join(" | ");
+
+  message += `• ${formattedHeaders}\n  ${formattedValues}\n`;
   if (token.callData) {
     message += `\n📞 Call Data:\n`;
     message += `• Number of Calls: ${token.callData.numberCalls}\n`;
@@ -178,10 +208,8 @@ function formatAlertMessage(token: ScoredTokenData): string {
       message += `• ${flag}\n`;
     });
   }
-
-  message += `\nLiquidity Tier: ${token.liquidityTier}\n`;
-
-  return escapeMarkdown(message);
+  const msg = `${header}\n${escapeMarkdown(message)}`;
+  return msg;
 }
 
 function getScoreEmoji(score: number): string {

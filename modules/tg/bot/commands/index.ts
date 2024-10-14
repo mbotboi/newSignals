@@ -1,3 +1,8 @@
-import { getToken, updateLabel } from "./tokenMetricsCrud";
+import {
+  getToken,
+  updateLabel,
+  getTokenCount,
+  getUnlabeledTokens,
+} from "./tokenMetricsCrud";
 
-export { getToken, updateLabel };
+export { getToken, updateLabel, getTokenCount, getUnlabeledTokens };
