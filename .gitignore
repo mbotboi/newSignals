@@ -12,7 +12,7 @@ modules/chatgpt/data
 /data/
 /experiments/
 cronjob
-
+repopack-output.txt
 # Logs
 logs
 *.log
