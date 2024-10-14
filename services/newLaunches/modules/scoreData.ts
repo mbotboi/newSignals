@@ -1,6 +1,5 @@
 import { subscribe } from "../../../modules/data/redis/redisPubSub";
 import { tokenMetrics, pairDataMetrics } from "../../../modules/data/mongodb";
-
 import { scoreToken } from "../score/score";
 import { processChartData } from "./token";
 import {
@@ -14,9 +13,12 @@ import {
   sendTelegramAlert,
   getTokensWithFirstHourCalls,
 } from "./telegram";
+import { CHAIN_IDS } from "../../../modules/constants";
+import { honeypotIs } from "../../../modules/safety/honeypot";
 import { TelegramClient } from "telegram";
 import { updateScoringParams } from "../score/calculateScoringParams";
 import { RedisClientType } from "redis";
+import fs from "fs";
 
 interface RedisData {
   address: string;
@@ -40,6 +42,23 @@ async function startScoringService(
     const quoteToken = pair.quoteToken;
 
     try {
+      //0. Check for honeypot
+      let isHP = false;
+      if (cachedData.chain != "solana") {
+        const hpData = await honeypotIs(
+          pair.pair.address,
+          CHAIN_IDS[cachedData.chain]
+        );
+        isHP = hpData.honeypotResult.isHoneypot;
+      }
+      if (isHP) {
+        console.log(
+          `Token ${pair.pair.address} is a honeypot. Skipping evaluation.`
+        );
+        await redisClient.zRem("token_processing_schedule", address);
+        await redisClient.del(`pair:${address}`);
+        return; // Exit the function early
+      }
       // 1. Process chart data
       const aggregatedCandleData = processChartData(chartData, pair);
 
@@ -49,9 +68,10 @@ async function startScoringService(
 
       let dataToScore: DataToScore = {
         ...aggregatedCandleData,
-        pair: pair.address,
+        pair: pair.pair.address,
         address: tokenAddress,
         name: pair[quoteToken].name,
+        label: "none",
         callData: callData,
       };
       dataToScore = getTokensWithFirstHourCalls(dataToScore);
@@ -60,6 +80,7 @@ async function startScoringService(
       finalDataToScore.weightedAvgCPW = 0;
       finalDataToScore.liquidityTier = 0;
       finalDataToScore.flags = [];
+      finalDataToScore.chain = cachedData.chain;
 
       // 3. Score the token
       const scoredToken: ScoredTokenData = scoreToken(
@@ -67,12 +88,11 @@ async function startScoringService(
         scoringParams,
         flagThresholds
       );
-
-      // 4. Save to database
-      await saveToDB(scoredToken);
-
-      // 5. Send Telegram alert
-      await sendTelegramAlert(scoredToken);
+      // fs.writeFileSync(`${pair[quoteToken].name}.json`, JSON.stringify(scoredToken));
+      await Promise.all([
+        saveToDB(scoredToken), // 4. Save to database
+        sendTelegramAlert(scoredToken), // 5. Send Telegram alert
+      ]);
 
       // 6. Remove from processing schedule and clean up cached data
       await redisClient.zRem("token_processing_schedule", address);

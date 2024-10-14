@@ -6,6 +6,9 @@ import { getTokensLaunchedXHoursAgo } from "../../../modules/tokens/newLaunches"
 import { getChart } from "../../../modules/charts/getCharts";
 import { PairData, ChartData, CachedPairData } from "../types";
 import { cacheTokenData } from "./processData";
+import { tokenMetrics } from "../../../modules/data/mongodb";
+
+const PROCESSED_PAIRS_SET = "processed_pairs";
 
 export async function startDataGatheringService(redisClient: RedisClientType) {
   if (config.FIRE_AT_START) {
@@ -43,6 +46,29 @@ async function gatherData(redisClient: RedisClientType) {
 
     for (const token of newLaunches) {
       const pairAddress = token.pair.address;
+      const tokenAddress = token[token.quoteToken].address;
+
+      // Check if the token already exists in MongoDB
+      const existingToken = await tokenMetrics.getTokenByAddress(tokenAddress);
+      if (existingToken) {
+        console.log(
+          `Token ${tokenAddress} already exists in MongoDB. Skipping.`
+        );
+        continue;
+      }
+
+      // Check if the pair has already been processed in Redis
+      const isProcessed = await redisClient.sIsMember(
+        PROCESSED_PAIRS_SET,
+        pairAddress
+      );
+      if (isProcessed) {
+        console.log(
+          `Pair ${pairAddress} has already been processed. Skipping.`
+        );
+        continue;
+      }
+
       const chartData: ChartData = await getChart(
         pairAddress,
         chain,

@@ -39,6 +39,7 @@ export interface ScoredTokenData extends DataToScore {
   flags: Flag[];
   liquidityTier: number;
   weightedAvgCPW: number;
+  chain: string;
 }
 
 export interface MetricCorrelation {
