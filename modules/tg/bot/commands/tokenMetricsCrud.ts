@@ -44,11 +44,8 @@ export async function getToken(address: string): Promise<string> {
   try {
     const token = await tokenMetrics.getTokenByAddress(address);
     if (token) {
-      const currPairInfo: PairData = await getDetailedPairData(
-        token.pair,
-        token.chain
-      );
-      const pctChange = parseFloat(currPairInfo.priceChange24) * 100;
+      const currPairInfo = await getDetailedPairData(token.pair, token.chain);
+      const pctChange = parseFloat(currPairInfo!.priceChange24) * 100;
       console.log(pctChange);
       const pctChangeTxt =
         pctChange < 0
@@ -62,11 +59,11 @@ export async function getToken(address: string): Promise<string> {
       const tokenInfo = `Address: \`${token.address}\`
 Label: ${token.label}
 Score: ${token.score}
-MC in DB : ${formatNumber(token.mc)}
-MC curr  : ${formatNumber(parseFloat(currPairInfo.marketCap))}
+MC in DB : ${formatNumber(token.actualMC)}
+MC curr  : ${formatNumber(parseFloat(currPairInfo!.marketCap))}
 1D % chg: ${pctChangeTxt}
-Volume 1D: ${formatNumber(parseFloat(currPairInfo.volumeUSD24))}
-Liquidity: ${formatNumber(parseFloat(currPairInfo.liquidity))}
+Volume 1D: ${formatNumber(parseFloat(currPairInfo!.volumeUSD24))}
+Liquidity: ${formatNumber(parseFloat(currPairInfo!.liquidity))}
 `;
       const msg = `${header}
 ${escapeMarkdown(tokenInfo)}
