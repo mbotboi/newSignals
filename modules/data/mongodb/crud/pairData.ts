@@ -36,6 +36,11 @@ const PairDataSchema: Schema = new Schema({
       circulatingSupply: { type: String, required: true },
     },
   },
+  buyers: { type: Number, required: true },
+  sellers: { type: Number, required: true },
+  traders: { type: Number, required: true },
+  participantEngagement: { type: Number, required: true },
+  buyersToSellers: { type: Number, required: true },
   scoringError: { type: String },
   retryCount: { type: Number, default: 0 },
 });

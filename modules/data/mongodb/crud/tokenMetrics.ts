@@ -57,11 +57,11 @@ const TokenSchema: Schema = new Schema({
       },
     ],
   },
-  // buyers: { type: Number, required: true },
-  // sellers: { type: Number, required: true },
-  // traders: { type: Number, required: true },
-  // participantEngagement: { type: Number, required: true },
-  // buyersToSellers: { type: Number, required: true },
+  buyers: { type: Number, required: true },
+  sellers: { type: Number, required: true },
+  traders: { type: Number, required: true },
+  participantEngagement: { type: Number, required: true },
+  buyersToSellers: { type: Number, required: true },
 });
 
 const Token: Model<ScoredTokenData> = mongoose.model<ScoredTokenData>(
