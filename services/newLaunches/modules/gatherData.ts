@@ -38,11 +38,12 @@ export async function startDataGatheringService(redisClient: RedisClientType) {
 
 async function gatherData(redisClient: RedisClientType) {
   for (const chain of config.CHAINS) {
-    const newLaunches: PairData[] = await getTokensLaunchedXHoursAgo(
+    const newLaunches_ = await getTokensLaunchedXHoursAgo(
       config.NEW_LAUNCH_MIN_LIQ,
       chain,
       config.LAUNCHED_HOURS_AGO
     );
+    const newLaunches = newLaunches_ as PairData[];
 
     for (const token of newLaunches) {
       const pairAddress = token.pair.address;

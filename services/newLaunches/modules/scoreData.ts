@@ -19,6 +19,8 @@ import { TelegramClient } from "telegram";
 import { updateScoringParams } from "../score/calculateScoringParams";
 import { RedisClientType } from "redis";
 import fs from "fs";
+import { getDetailedPairData } from "../../../modules/tokens/getPairInfo";
+import { convertDetailedPairDataToPairDataForScoring } from "../../../modules/tokens/newLaunches";
 
 interface RedisData {
   address: string;
@@ -42,6 +44,24 @@ async function startScoringService(
     const quoteToken = pair.quoteToken;
 
     try {
+      const freshPairData_ = await getDetailedPairData(
+        pair.pair.address,
+        cachedData.chain
+      );
+
+      if (!freshPairData_) {
+        console.error(
+          `Failed to fetch fresh data for pair ${pair.pair.address}`
+        );
+        return;
+      }
+      const freshPairData =
+        convertDetailedPairDataToPairDataForScoring(freshPairData_);
+      // fs.writeFileSync(
+      //   `freshPair${pair[quoteToken].name}`,
+      //   JSON.stringify(freshPairData)
+      // );
+
       //0. Check for honeypot
       let isHP = false;
       if (cachedData.chain != "solana") {
@@ -60,8 +80,11 @@ async function startScoringService(
         return; // Exit the function early
       }
       // 1. Process chart data
-      const aggregatedCandleData = processChartData(chartData, pair);
-
+      const aggregatedCandleData = processChartData(chartData, freshPairData);
+      // fs.writeFileSync(
+      //   `aggChart${pair[quoteToken].name}`,
+      //   JSON.stringify(aggregatedCandleData)
+      // );
       // 2. Process Telegram messages
       const tokenAddress = pair[quoteToken].address;
       const callData = await processTelegramData(tgClient, tokenAddress);
@@ -73,6 +96,11 @@ async function startScoringService(
         name: pair[quoteToken].name,
         label: "none",
         callData: callData,
+        buyersToSellers: freshPairData.buyersToSellers,
+        participantEngagement: freshPairData.participantEngagement,
+        traders: freshPairData.traders,
+        sellers: freshPairData.sellers,
+        buyers: freshPairData.buyers,
       };
       dataToScore = getTokensWithFirstHourCalls(dataToScore);
 
@@ -81,6 +109,10 @@ async function startScoringService(
       finalDataToScore.liquidityTier = 0;
       finalDataToScore.flags = [];
       finalDataToScore.chain = cachedData.chain;
+      // fs.writeFileSync(
+      //   `finalDataToScore${pair[quoteToken].name}`,
+      //   JSON.stringify(finalDataToScore)
+      // );
 
       // 3. Score the token
       const scoredToken: ScoredTokenData = scoreToken(
@@ -88,6 +120,11 @@ async function startScoringService(
         scoringParams,
         flagThresholds
       );
+      // fs.writeFileSync(
+      //   `scoredData${pair[quoteToken].name}`,
+      //   JSON.stringify(scoredToken)
+      // );
+
       // fs.writeFileSync(`${pair[quoteToken].name}.json`, JSON.stringify(scoredToken));
       await Promise.all([
         saveToDB(scoredToken), // 4. Save to database

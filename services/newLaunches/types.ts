@@ -116,8 +116,8 @@ export const metrics = [
   "buysToSells",
   "pctCloseFromHigh",
   "pctCloseFromOpen",
-  // "participantEngagement",
-  // "buyersToSellers",
+  "participantEngagement",
+  "buyersToSellers",
 ];
 
 export const LiquidityTierThresholds = [10000, 50000, 100000] as const;
@@ -163,6 +163,11 @@ export interface PairData {
   quoteToken: string;
   token0: TokenInfo;
   token1: TokenInfo;
+  buyers: number;
+  sellers: number;
+  traders: number;
+  participantEngagement: number;
+  buyersToSellers: number;
   [key: string]: any;
 }
 
@@ -180,9 +185,6 @@ export interface CandleData {
   sells: number;
   liquidity: string;
   transactions: number;
-  // buyers: number;
-  // sellers: number;
-  // traders: number;
 }
 
 export interface ChartData {
