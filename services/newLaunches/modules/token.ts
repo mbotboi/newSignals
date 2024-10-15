@@ -37,8 +37,6 @@ export function aggregateCandleData(
       earlyData.h !== 0 ? (earlyData.c - earlyData.h) / earlyData.h : 0,
     pctCloseFromOpen:
       earlyData.o !== 0 ? (earlyData.c - earlyData.o) / earlyData.o : 0,
-    // participantEngagement: earlyData.traders / earlyData.transactions,
-    // buyersToSellers: earlyData.buyers / earlyData.sellers,
   };
   return obj;
 }
