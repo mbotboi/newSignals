@@ -113,12 +113,3 @@ export function scoreTokens(
 ): ScoredTokenData[] {
   return tokens.map((token) => scoreToken(token, params, flagThresholds));
 }
-
-// prompt
-// I believe the appropriate next step is to work on points 1 and 3 in the next steps summary. I have already my own dataloading script written.
-
-// But just in case, but just incase, lets clarify what attributes are most important to ensure that the quality of our outputs are high.
-
-// For my data loading, i am uploading this kind of data (attached image) this is an example of a data that does not have any calls present. Other data have calls for example. Also, note that this data is already scored.
-
-// TODO: ACTUALLY FIX MY DATASET THAT I UPLOAD TO DB. THE METRICS VALUES ARE ALL WRONG AND SCORED
