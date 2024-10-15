@@ -2,6 +2,9 @@ import axios from "axios";
 import { DEFINED_HEADERS, DEFINED_URL } from "../api";
 import { CHAIN_IDS } from "../constants";
 import fs from "fs";
+import { pairOutput, DetailedPairInfo } from "./getPairInfo";
+import { PairData } from "../../services/newLaunches/types";
+
 /**
  * @param minLiquidity -> minimum liquidity for token
  * @param chain -> chain name
@@ -13,7 +16,7 @@ export async function getTokensLaunchedXHoursAgo(
   minLiquidity: number,
   chain: string,
   hoursAgo: number
-) {
+): Promise<PairData[] | null> {
   const oneHour = 3600;
   const now = Math.floor(Date.now() / 1000);
   //to is always X hours before now. Eg: if 0, to = now, if 1, to is now - 1hr
@@ -30,42 +33,7 @@ export async function getTokensLaunchedXHoursAgo(
     rankings: { attribute: volumeUSD24, direction: DESC }
     limit: 200
   ) {
-    results {
-      lastTransaction
-      createdAt
-      uniqueBuys24
-      uniqueSells24
-      uniqueTransactions24
-      volumeUSD24
-      priceChange24
-      highPrice24
-      lowPrice24
-      price
-      liquidity
-      marketCap
-      pair{
-        address
-      }
-      quoteToken
-      token0{
-        address
-        decimals
-        symbol
-        name
-        info{
-          circulatingSupply
-        }
-      }
-      token1{
-        address
-        decimals
-        symbol
-        name
-        info{
-          circulatingSupply
-        }
-      }
-    }
+    ${pairOutput}
   }
 }`;
   try {
@@ -75,11 +43,52 @@ export async function getTokensLaunchedXHoursAgo(
       DEFINED_HEADERS
     );
     // fs.writeFileSync("./pairs.json", JSON.stringify(resp.data));
-    const data = resp.data.data.filterPairs.results;
-    return data;
+    const data: DetailedPairInfo[] = resp.data.data.filterPairs.results;
+    const pairDatas: PairData[] = data.map((info) => {
+      const pairDatas = convertDetailedPairDataToPairDataForScoring(info);
+      return pairDatas;
+    });
+
+    return pairDatas;
+
+    // return data as ;
   } catch (e) {
     console.error("COULD NOT FETCH FILTERED TOKENS DEFINED");
     console.log(e);
     return null;
   }
+}
+export function convertDetailedPairDataToPairDataForScoring(
+  info: DetailedPairInfo
+): PairData {
+  const buyers = info.uniqueBuys1;
+  const sellers = info.uniqueSells1;
+  const traders = info.uniqueTransactions1;
+
+  return {
+    lastTransaction: info.lastTransaction,
+    createdAt: info.createdAt,
+    uniqueBuys24: info.uniqueBuys24,
+    uniqueSells24: info.uniqueSells24,
+    uniqueTransactions24: info.uniqueTransactions24,
+    volumeUSD24: info.volumeUSD24,
+    priceChange24: info.priceChange24,
+    highPrice24: info.highPrice24,
+    lowPrice24: info.lowPrice24,
+    price: info.price,
+    liquidity: info.liquidity,
+    marketCap: info.marketCap,
+    pair: {
+      address: info.pair.address,
+    },
+    quoteToken: info.quoteToken,
+    token0: info.token0,
+    token1: info.token1,
+    buyers,
+    sellers,
+    traders,
+    participantEngagement:
+      traders > 0 ? traders / info.uniqueTransactions24 : 0,
+    buyersToSellers: sellers > 0 ? buyers / sellers : 0,
+  };
 }

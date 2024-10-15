@@ -1,6 +1,7 @@
 import axios from "axios";
 import { DEFINED_HEADERS, DEFINED_URL } from "../api";
 import { CHAIN_IDS } from "../constants";
+import { TokenInfo } from "../../services/newLaunches/types";
 
 export async function getPair(pairAddress: string) {
   const query = `query {
@@ -39,7 +40,10 @@ export async function getPair(pairAddress: string) {
   }
 }
 
-export async function getDetailedPairData(pairAddress: string, chain: string) {
+export async function getDetailedPairData(
+  pairAddress: string,
+  chain: string
+): Promise<DetailedPairInfo | null> {
   const query = `query {
   filterPairs(
     phrase: "${pairAddress}:${CHAIN_IDS[chain]}"
@@ -47,31 +51,7 @@ export async function getDetailedPairData(pairAddress: string, chain: string) {
   ) {
     count
     offset
-    results {
-      quoteToken
-      pair {
-        token0
-        token1
-      }
-      createdAt
-      volumeUSD1
-      volumeUSD4
-      volumeUSD24
-      buyCount1
-      buyCount4
-      buyCount24
-      sellCount1
-      sellCount4
-      sellCount24
-      lowPrice24
-      highPrice24
-      liquidity
-      marketCap
-      price
-      priceChange1
-      priceChange4
-      priceChange24
-    }
+    ${pairOutput}
   }
 }`;
   // console.log(query);
@@ -84,10 +64,90 @@ export async function getDetailedPairData(pairAddress: string, chain: string) {
     );
 
     data = resp.data.data.filterPairs.results;
-    return data[0];
+    return data[0] as DetailedPairInfo;;
   } catch (e) {
     console.error("COULD NOT FETCH PAIR INFO DEFINED");
     console.log(e);
     return null;
   }
+}
+
+export const pairOutput = `results {
+      lastTransaction
+      createdAt
+      uniqueBuys24
+      uniqueSells24
+      uniqueTransactions24
+      uniqueBuys4
+      uniqueSells4
+      uniqueTransactions4
+      uniqueBuys1
+      uniqueSells1
+      uniqueTransactions1
+      volumeUSD24
+      volumeUSD4
+      volumeUSD1
+      priceChange24
+      priceChange4
+      priceChange1
+      highPrice24
+      lowPrice24
+      price
+      liquidity
+      marketCap
+      pair{
+        address
+      }
+      quoteToken
+      token0{
+        address
+        decimals
+        symbol
+        name
+        info{
+          circulatingSupply
+        }
+      }
+      token1{
+        address
+        decimals
+        symbol
+        name
+        info{
+          circulatingSupply
+        }
+      }
+    }
+`;
+
+export interface DetailedPairInfo {
+  lastTransaction: number;
+  createdAt: number;
+  uniqueBuys24: number;
+  uniqueSells24: number;
+  uniqueTransactions24: number;
+  uniqueBuys4: number;
+  uniqueSells4: number;
+  uniqueTransactions4: number;
+  uniqueBuys1: number;
+  uniqueSells1: number;
+  uniqueTransactions1: number;
+  volumeUSD24: string;
+  volumeUSD4: string;
+  volumeUSD1: string;
+  priceChange24: string;
+  priceChange4: string;
+  priceChange1: string;
+  highPrice24: string;
+  lowPrice24: string;
+  price: string;
+  liquidity: string;
+  marketCap: string;
+  pair: {
+    address: string;
+  };
+  quoteToken: string;
+  token0: TokenInfo;
+  token1: TokenInfo;
+  [key: string]: any;
 }
